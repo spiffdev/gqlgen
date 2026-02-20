@@ -38,7 +38,7 @@ func (ec *executionContext) _LoopA_b(ctx context.Context, field graphql.Collecte
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNLoopB2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopB,
+		ec.marshalNLoopB2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopB,
 		true,
 		true,
 	)
@@ -73,7 +73,7 @@ func (ec *executionContext) _LoopB_a(ctx context.Context, field graphql.Collecte
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNLoopA2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopA,
+		ec.marshalNLoopA2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopA,
 		true,
 		true,
 	)
@@ -190,7 +190,7 @@ func (ec *executionContext) _LoopB(ctx context.Context, sel ast.SelectionSet, ob
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) marshalNLoopA2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopA(ctx context.Context, sel ast.SelectionSet, v *LoopA) graphql.Marshaler {
+func (ec *executionContext) marshalNLoopA2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopA(ctx context.Context, sel ast.SelectionSet, v *LoopA) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -200,7 +200,7 @@ func (ec *executionContext) marshalNLoopA2ᚖgithubᚗcomᚋ99designsᚋgqlgen�
 	return ec._LoopA(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNLoopB2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopB(ctx context.Context, sel ast.SelectionSet, v *LoopB) graphql.Marshaler {
+func (ec *executionContext) marshalNLoopB2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐLoopB(ctx context.Context, sel ast.SelectionSet, v *LoopB) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")

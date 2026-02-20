@@ -163,7 +163,7 @@ func (ec *executionContext) _VariadicModel(ctx context.Context, sel ast.Selectio
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) marshalOVariadicModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐVariadicModel(ctx context.Context, sel ast.SelectionSet, v *VariadicModel) graphql.Marshaler {
+func (ec *executionContext) marshalOVariadicModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐVariadicModel(ctx context.Context, sel ast.SelectionSet, v *VariadicModel) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

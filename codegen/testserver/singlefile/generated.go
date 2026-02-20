@@ -3124,7 +3124,7 @@ func (ec *executionContext) dir_range_args(ctx context.Context, rawArgs map[stri
 func (ec *executionContext) field_Mutation_defaultInput_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNDefaultInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNDefaultInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3135,7 +3135,7 @@ func (ec *executionContext) field_Mutation_defaultInput_args(ctx context.Context
 func (ec *executionContext) field_Mutation_overrideValueViaInput_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNFieldsOrderInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNFieldsOrderInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3167,7 +3167,7 @@ func (ec *executionContext) field_Mutation_updateProduct_args(ctx context.Contex
 func (ec *executionContext) field_Mutation_updatePtrToPtr_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdatePtrToPtrOuter2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrOuter)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdatePtrToPtrOuter2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrOuter)
 	if err != nil {
 		return nil, err
 	}
@@ -3178,7 +3178,7 @@ func (ec *executionContext) field_Mutation_updatePtrToPtr_args(ctx context.Conte
 func (ec *executionContext) field_Mutation_updateSomething_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNSpecialInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSpecialInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNSpecialInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSpecialInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3189,7 +3189,7 @@ func (ec *executionContext) field_Mutation_updateSomething_args(ctx context.Cont
 func (ec *executionContext) field_Panics_argUnmarshal_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "u", ec.unmarshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "u", ec.unmarshalNMarshalPanic2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ)
 	if err != nil {
 		return nil, err
 	}
@@ -3200,7 +3200,7 @@ func (ec *executionContext) field_Panics_argUnmarshal_args(ctx context.Context, 
 func (ec *executionContext) field_Panics_fieldFuncMarshal_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "u", ec.unmarshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "u", ec.unmarshalNMarshalPanic2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ)
 	if err != nil {
 		return nil, err
 	}
@@ -3338,7 +3338,7 @@ func (ec *executionContext) field_Query_directiveFieldDef_args(ctx context.Conte
 func (ec *executionContext) field_Query_directiveInputNullable_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalOInputDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalOInputDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives)
 	if err != nil {
 		return nil, err
 	}
@@ -3349,7 +3349,7 @@ func (ec *executionContext) field_Query_directiveInputNullable_args(ctx context.
 func (ec *executionContext) field_Query_directiveInputOuter_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNOuterWrapperInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterWrapperInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNOuterWrapperInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterWrapperInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3385,7 +3385,7 @@ func (ec *executionContext) field_Query_directiveInputType_argsArg(
 			var zeroVal InnerInput
 			return zeroVal, nil
 		}
-		return ec.unmarshalNInnerInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx, tmp)
+		return ec.unmarshalNInnerInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx, tmp)
 	}
 
 	directive1 := func(ctx context.Context) (any, error) {
@@ -3412,7 +3412,7 @@ func (ec *executionContext) field_Query_directiveInputType_argsArg(
 func (ec *executionContext) field_Query_directiveInput_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNInputDirectives2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNInputDirectives2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives)
 	if err != nil {
 		return nil, err
 	}
@@ -3653,7 +3653,7 @@ func (ec *executionContext) field_Query_directiveSingleNullableArg_argsArg1(
 func (ec *executionContext) field_Query_enumInInput_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalOInputWithEnumValue2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputWithEnumValue)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalOInputWithEnumValue2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputWithEnumValue)
 	if err != nil {
 		return nil, err
 	}
@@ -3664,7 +3664,7 @@ func (ec *executionContext) field_Query_enumInInput_args(ctx context.Context, ra
 func (ec *executionContext) field_Query_fallback_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNFallbackToStringEncoding2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNFallbackToStringEncoding2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding)
 	if err != nil {
 		return nil, err
 	}
@@ -3744,7 +3744,7 @@ func (ec *executionContext) field_Query_inputNullableSlice_args(ctx context.Cont
 func (ec *executionContext) field_Query_inputOmittable_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNOmittableInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOmittableInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "arg", ec.unmarshalNOmittableInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOmittableInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3788,7 +3788,7 @@ func (ec *executionContext) field_Query_mapNestedMapSlice_args(ctx context.Conte
 func (ec *executionContext) field_Query_mapNestedStringInterface_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "in", ec.unmarshalONestedMapInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedMapInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "in", ec.unmarshalONestedMapInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedMapInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3810,7 +3810,7 @@ func (ec *executionContext) field_Query_mapStringInterface_args(ctx context.Cont
 func (ec *executionContext) field_Query_nestedInputs_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalOOuterInput2ᚕᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalOOuterInput2ᚕᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput)
 	if err != nil {
 		return nil, err
 	}
@@ -3832,7 +3832,7 @@ func (ec *executionContext) field_Query_nullableArg_args(ctx context.Context, ra
 func (ec *executionContext) field_Query_recursive_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalORecursiveInputSlice2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalORecursiveInputSlice2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice)
 	if err != nil {
 		return nil, err
 	}
@@ -4352,7 +4352,7 @@ func (ec *executionContext) field_ValidType_validArgs_args(ctx context.Context, 
 func (ec *executionContext) field_ValidType_validInputKeywords_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalOValidInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalOValidInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidInput)
 	if err != nil {
 		return nil, err
 	}
@@ -4883,7 +4883,7 @@ func (ec *executionContext) _Cat_size(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNSize2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize,
+		ec.marshalNSize2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize,
 		true,
 		true,
 	)
@@ -5044,7 +5044,7 @@ func (ec *executionContext) _Circle_coordinates(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOCoordinates2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCoordinates,
+		ec.marshalOCoordinates2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCoordinates,
 		true,
 		false,
 	)
@@ -5112,7 +5112,7 @@ func (ec *executionContext) _ConcreteNodeA_child(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNNode2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode,
+		ec.marshalNNode2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode,
 		true,
 		true,
 	)
@@ -5205,7 +5205,7 @@ func (ec *executionContext) _ConcreteNodeInterface_child(ctx context.Context, fi
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNNode2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode,
+		ec.marshalNNode2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode,
 		true,
 		true,
 	)
@@ -5546,7 +5546,7 @@ func (ec *executionContext) _Dog_size(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNSize2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize,
+		ec.marshalNSize2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize,
 		true,
 		true,
 	)
@@ -5924,7 +5924,7 @@ func (ec *executionContext) _Errors_a(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		true,
 	)
@@ -5965,7 +5965,7 @@ func (ec *executionContext) _Errors_b(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		true,
 	)
@@ -6006,7 +6006,7 @@ func (ec *executionContext) _Errors_c(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		true,
 	)
@@ -6047,7 +6047,7 @@ func (ec *executionContext) _Errors_d(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		true,
 	)
@@ -6088,7 +6088,7 @@ func (ec *executionContext) _Errors_e(ctx context.Context, field graphql.Collect
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		true,
 	)
@@ -6160,7 +6160,7 @@ func (ec *executionContext) _ForcedResolver_field(ctx context.Context, field gra
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOCircle2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCircle,
+		ec.marshalOCircle2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCircle,
 		true,
 		false,
 	)
@@ -6230,7 +6230,7 @@ func (ec *executionContext) _Horse_size(ctx context.Context, field graphql.Colle
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNSize2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize,
+		ec.marshalNSize2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize,
 		true,
 		true,
 	)
@@ -6391,7 +6391,7 @@ func (ec *executionContext) _LoopA_b(ctx context.Context, field graphql.Collecte
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNLoopB2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopB,
+		ec.marshalNLoopB2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopB,
 		true,
 		true,
 	)
@@ -6426,7 +6426,7 @@ func (ec *executionContext) _LoopB_a(ctx context.Context, field graphql.Collecte
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNLoopA2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopA,
+		ec.marshalNLoopA2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopA,
 		true,
 		true,
 	)
@@ -6492,7 +6492,7 @@ func (ec *executionContext) _MapNested_value(ctx context.Context, field graphql.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar,
+		ec.marshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar,
 		true,
 		true,
 	)
@@ -6612,7 +6612,7 @@ func (ec *executionContext) _MapStringInterfaceType_c(ctx context.Context, field
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar,
+		ec.marshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar,
 		true,
 		false,
 	)
@@ -6652,7 +6652,7 @@ func (ec *executionContext) _MapStringInterfaceType_nested(ctx context.Context, 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOMapNested2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested,
+		ec.marshalOMapNested2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested,
 		true,
 		false,
 	)
@@ -6781,7 +6781,7 @@ func (ec *executionContext) _Mutation_defaultInput(ctx context.Context, field gr
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNDefaultParametersMirror2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror,
+		ec.marshalNDefaultParametersMirror2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror,
 		true,
 		true,
 	)
@@ -6830,7 +6830,7 @@ func (ec *executionContext) _Mutation_overrideValueViaInput(ctx context.Context,
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNFieldsOrderPayload2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderPayload,
+		ec.marshalNFieldsOrderPayload2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderPayload,
 		true,
 		true,
 	)
@@ -6967,7 +6967,7 @@ func (ec *executionContext) _Mutation_updatePtrToPtr(ctx context.Context, field 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNPtrToPtrOuter2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrOuter,
+		ec.marshalNPtrToPtrOuter2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrOuter,
 		true,
 		true,
 	)
@@ -7189,7 +7189,7 @@ func (ec *executionContext) _OuterObject_inner(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNInnerObject2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerObject,
+		ec.marshalNInnerObject2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerObject,
 		true,
 		true,
 	)
@@ -7379,7 +7379,7 @@ func (ec *executionContext) _Panics_fieldScalarMarshal(ctx context.Context, fiel
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ,
+		ec.marshalNMarshalPanic2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ,
 		true,
 		true,
 	)
@@ -7411,7 +7411,7 @@ func (ec *executionContext) _Panics_fieldFuncMarshal(ctx context.Context, field 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ,
+		ec.marshalNMarshalPanic2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ,
 		true,
 		true,
 	)
@@ -7528,7 +7528,7 @@ func (ec *executionContext) _Pet_friends(ctx context.Context, field graphql.Coll
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOPet2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPetᚄ,
+		ec.marshalOPet2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPetᚄ,
 		true,
 		false,
 	)
@@ -7886,7 +7886,7 @@ func (ec *executionContext) _PtrToPtrOuter_inner(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOPtrToPtrInner2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner,
+		ec.marshalOPtrToPtrInner2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner,
 		true,
 		false,
 	)
@@ -7923,7 +7923,7 @@ func (ec *executionContext) _PtrToPtrOuter_stupidInner(ctx context.Context, fiel
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner,
+		ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner,
 		true,
 		false,
 	)
@@ -7991,7 +7991,7 @@ func (ec *executionContext) _Query_invalidIdentifier(ctx context.Context, field 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOInvalidIdentifier2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋinvalidᚑpackagenameᚐInvalidIdentifier,
+		ec.marshalOInvalidIdentifier2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋinvalidᚑpackagenameᚐInvalidIdentifier,
 		true,
 		false,
 	)
@@ -8026,7 +8026,7 @@ func (ec *executionContext) _Query_collision(ctx context.Context, field graphql.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOIt2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋintrospectionᚐIt,
+		ec.marshalOIt2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋintrospectionᚐIt,
 		true,
 		false,
 	)
@@ -8190,7 +8190,7 @@ func (ec *executionContext) _Query_nestedOutputs(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOOuterObject2ᚕᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject,
+		ec.marshalOOuterObject2ᚕᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject,
 		true,
 		false,
 	)
@@ -8225,7 +8225,7 @@ func (ec *executionContext) _Query_modelMethods(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOModelMethods2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐModelMethods,
+		ec.marshalOModelMethods2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐModelMethods,
 		true,
 		false,
 	)
@@ -8265,7 +8265,7 @@ func (ec *executionContext) _Query_user(ctx context.Context, field graphql.Colle
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNUser2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser,
+		ec.marshalNUser2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser,
 		true,
 		true,
 	)
@@ -8491,7 +8491,7 @@ func (ec *executionContext) _Query_shapeUnion(ctx context.Context, field graphql
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNShapeUnion2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShapeUnion,
+		ec.marshalNShapeUnion2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShapeUnion,
 		true,
 		true,
 	)
@@ -8522,7 +8522,7 @@ func (ec *executionContext) _Query_autobind(ctx context.Context, field graphql.C
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOAutobind2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAutobind,
+		ec.marshalOAutobind2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAutobind,
 		true,
 		false,
 	)
@@ -8639,7 +8639,7 @@ func (ec *executionContext) _Query_overlapping(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOOverlappingFields2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOverlappingFields,
+		ec.marshalOOverlappingFields2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOverlappingFields,
 		true,
 		false,
 	)
@@ -8683,7 +8683,7 @@ func (ec *executionContext) _Query_defaultParameters(ctx context.Context, field 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNDefaultParametersMirror2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror,
+		ec.marshalNDefaultParametersMirror2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror,
 		true,
 		true,
 	)
@@ -8731,7 +8731,7 @@ func (ec *executionContext) _Query_deferSingle(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalODeferModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel,
+		ec.marshalODeferModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel,
 		true,
 		false,
 	)
@@ -8770,7 +8770,7 @@ func (ec *executionContext) _Query_deferMultiple(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalODeferModel2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModelᚄ,
+		ec.marshalODeferModel2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModelᚄ,
 		true,
 		false,
 	)
@@ -9162,7 +9162,7 @@ func (ec *executionContext) _Query_directiveObject(ctx context.Context, field gr
 			next = directive4
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOObjectDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectives,
+		ec.marshalOObjectDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectives,
 		true,
 		false,
 	)
@@ -9201,7 +9201,7 @@ func (ec *executionContext) _Query_directiveObjectWithCustomGoModel(ctx context.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOObjectDirectivesWithCustomGoModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectivesWithCustomGoModel,
+		ec.marshalOObjectDirectivesWithCustomGoModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectivesWithCustomGoModel,
 		true,
 		false,
 	)
@@ -9422,7 +9422,7 @@ func (ec *executionContext) _Query_embeddedCase1(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOEmbeddedCase12ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase1,
+		ec.marshalOEmbeddedCase12ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase1,
 		true,
 		false,
 	)
@@ -9457,7 +9457,7 @@ func (ec *executionContext) _Query_embeddedCase2(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOEmbeddedCase22ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase2,
+		ec.marshalOEmbeddedCase22ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase2,
 		true,
 		false,
 	)
@@ -9492,7 +9492,7 @@ func (ec *executionContext) _Query_embeddedCase3(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOEmbeddedCase32ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase3,
+		ec.marshalOEmbeddedCase32ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase3,
 		true,
 		false,
 	)
@@ -9528,7 +9528,7 @@ func (ec *executionContext) _Query_enumInInput(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNEnumTest2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest,
+		ec.marshalNEnumTest2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest,
 		true,
 		true,
 	)
@@ -9940,7 +9940,7 @@ func (ec *executionContext) _Query_shapes(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOShape2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape,
+		ec.marshalOShape2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape,
 		true,
 		false,
 	)
@@ -9982,7 +9982,7 @@ func (ec *executionContext) _Query_noShape(ctx context.Context, field graphql.Co
 			next = directive1
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOShape2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape,
+		ec.marshalOShape2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape,
 		true,
 		false,
 	)
@@ -10013,7 +10013,7 @@ func (ec *executionContext) _Query_node(ctx context.Context, field graphql.Colle
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNNode2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode,
+		ec.marshalNNode2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode,
 		true,
 		true,
 	)
@@ -10055,7 +10055,7 @@ func (ec *executionContext) _Query_noShapeTypedNil(ctx context.Context, field gr
 			next = directive1
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOShape2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape,
+		ec.marshalOShape2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape,
 		true,
 		false,
 	)
@@ -10097,7 +10097,7 @@ func (ec *executionContext) _Query_animal(ctx context.Context, field graphql.Col
 			next = directive1
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOAnimal2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAnimal,
+		ec.marshalOAnimal2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAnimal,
 		true,
 		false,
 	)
@@ -10128,7 +10128,7 @@ func (ec *executionContext) _Query_notAnInterface(ctx context.Context, field gra
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOBackedByInterface2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐBackedByInterface,
+		ec.marshalOBackedByInterface2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐBackedByInterface,
 		true,
 		false,
 	)
@@ -10167,7 +10167,7 @@ func (ec *executionContext) _Query_dog(ctx context.Context, field graphql.Collec
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalODog2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDog,
+		ec.marshalODog2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDog,
 		true,
 		false,
 	)
@@ -10206,7 +10206,7 @@ func (ec *executionContext) _Query_issue896a(ctx context.Context, field graphql.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896ᚄ,
+		ec.marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896ᚄ,
 		true,
 		false,
 	)
@@ -10390,7 +10390,7 @@ func (ec *executionContext) _Query_errorBubble(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalOError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		false,
 	)
@@ -10431,7 +10431,7 @@ func (ec *executionContext) _Query_errorBubbleList(ctx context.Context, field gr
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOError2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrorᚄ,
+		ec.marshalOError2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrorᚄ,
 		true,
 		false,
 	)
@@ -10472,7 +10472,7 @@ func (ec *executionContext) _Query_errorList(ctx context.Context, field graphql.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOError2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalOError2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		false,
 	)
@@ -10513,7 +10513,7 @@ func (ec *executionContext) _Query_errors(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOErrors2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrors,
+		ec.marshalOErrors2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrors,
 		true,
 		false,
 	)
@@ -10618,7 +10618,7 @@ func (ec *executionContext) _Query_panics(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOPanics2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPanics,
+		ec.marshalOPanics2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPanics,
 		true,
 		false,
 	)
@@ -10657,7 +10657,7 @@ func (ec *executionContext) _Query_primitiveObject(ctx context.Context, field gr
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNPrimitive2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveᚄ,
+		ec.marshalNPrimitive2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveᚄ,
 		true,
 		true,
 	)
@@ -10694,7 +10694,7 @@ func (ec *executionContext) _Query_primitiveStringObject(ctx context.Context, fi
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNPrimitiveString2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveStringᚄ,
+		ec.marshalNPrimitiveString2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveStringᚄ,
 		true,
 		true,
 	)
@@ -10733,7 +10733,7 @@ func (ec *executionContext) _Query_ptrToAnyContainer(ctx context.Context, field 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNPtrToAnyContainer2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToAnyContainer,
+		ec.marshalNPtrToAnyContainer2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToAnyContainer,
 		true,
 		true,
 	)
@@ -10770,7 +10770,7 @@ func (ec *executionContext) _Query_ptrToSliceContainer(ctx context.Context, fiel
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNPtrToSliceContainer2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToSliceContainer,
+		ec.marshalNPtrToSliceContainer2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToSliceContainer,
 		true,
 		true,
 	)
@@ -10836,7 +10836,7 @@ func (ec *executionContext) _Query_stringFromContextInterface(ctx context.Contex
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNStringFromContextInterface2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface,
+		ec.marshalNStringFromContextInterface2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface,
 		true,
 		true,
 	)
@@ -10941,7 +10941,7 @@ func (ec *executionContext) _Query_skipInclude(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOSkipIncludeTestType2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSkipIncludeTestType,
+		ec.marshalOSkipIncludeTestType2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSkipIncludeTestType,
 		true,
 		false,
 	)
@@ -10978,7 +10978,7 @@ func (ec *executionContext) _Query_slices(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOSlices2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSlices,
+		ec.marshalOSlices2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSlices,
 		true,
 		false,
 	)
@@ -11051,7 +11051,7 @@ func (ec *executionContext) _Query_fallback(ctx context.Context, field graphql.C
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNFallbackToStringEncoding2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding,
+		ec.marshalNFallbackToStringEncoding2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding,
 		true,
 		true,
 	)
@@ -11093,7 +11093,7 @@ func (ec *executionContext) _Query_optionalUnion(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOTestUnion2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐTestUnion,
+		ec.marshalOTestUnion2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐTestUnion,
 		true,
 		false,
 	)
@@ -11124,7 +11124,7 @@ func (ec *executionContext) _Query_vOkCaseValue(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOVOkCaseValue2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseValue,
+		ec.marshalOVOkCaseValue2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseValue,
 		true,
 		false,
 	)
@@ -11159,7 +11159,7 @@ func (ec *executionContext) _Query_vOkCaseNil(ctx context.Context, field graphql
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOVOkCaseNil2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseNil,
+		ec.marshalOVOkCaseNil2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseNil,
 		true,
 		false,
 	)
@@ -11194,7 +11194,7 @@ func (ec *executionContext) _Query_validType(ctx context.Context, field graphql.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOValidType2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidType,
+		ec.marshalOValidType2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidType,
 		true,
 		false,
 	)
@@ -11235,7 +11235,7 @@ func (ec *executionContext) _Query_variadicModel(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOVariadicModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVariadicModel,
+		ec.marshalOVariadicModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVariadicModel,
 		true,
 		false,
 	)
@@ -11270,7 +11270,7 @@ func (ec *executionContext) _Query_wrappedStruct(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNWrappedStruct2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedStruct,
+		ec.marshalNWrappedStruct2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedStruct,
 		true,
 		true,
 	)
@@ -11307,7 +11307,7 @@ func (ec *executionContext) _Query_wrappedScalar(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNWrappedScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar,
+		ec.marshalNWrappedScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar,
 		true,
 		true,
 	)
@@ -11338,7 +11338,7 @@ func (ec *executionContext) _Query_wrappedMap(ctx context.Context, field graphql
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNWrappedMap2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedMap,
+		ec.marshalNWrappedMap2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedMap,
 		true,
 		true,
 	)
@@ -11373,7 +11373,7 @@ func (ec *executionContext) _Query_wrappedSlice(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNWrappedSlice2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedSlice,
+		ec.marshalNWrappedSlice2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedSlice,
 		true,
 		true,
 	)
@@ -11409,7 +11409,7 @@ func (ec *executionContext) _Query___type(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalO__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		false,
 	)
@@ -11475,7 +11475,7 @@ func (ec *executionContext) _Query___schema(ctx context.Context, field graphql.C
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalO__Schema2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema,
+		ec.marshalO__Schema2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema,
 		true,
 		false,
 	)
@@ -11613,7 +11613,7 @@ func (ec *executionContext) _Rectangle_coordinates(ctx context.Context, field gr
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOCoordinates2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCoordinates,
+		ec.marshalOCoordinates2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCoordinates,
 		true,
 		false,
 	)
@@ -12137,7 +12137,7 @@ func (ec *executionContext) _Subscription_issue896b(ctx context.Context, field g
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896,
+		ec.marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896,
 		true,
 		false,
 	)
@@ -12172,7 +12172,7 @@ func (ec *executionContext) _Subscription_errorRequired(ctx context.Context, fie
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, nil, next)
 		},
-		ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
+		ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError,
 		true,
 		true,
 	)
@@ -12244,7 +12244,7 @@ func (ec *executionContext) _User_friends(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNUser2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUserᚄ,
+		ec.marshalNUser2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUserᚄ,
 		true,
 		true,
 	)
@@ -12350,7 +12350,7 @@ func (ec *executionContext) _User_pets(ctx context.Context, field graphql.Collec
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOPet2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPetᚄ,
+		ec.marshalOPet2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPetᚄ,
 		true,
 		false,
 	)
@@ -12743,7 +12743,7 @@ func (ec *executionContext) _WrappedStruct_name(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNWrappedScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar,
+		ec.marshalNWrappedScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar,
 		true,
 		true,
 	)
@@ -12774,7 +12774,7 @@ func (ec *executionContext) _WrappedStruct_desc(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOWrappedScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar,
+		ec.marshalOWrappedScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar,
 		true,
 		false,
 	)
@@ -12991,7 +12991,7 @@ func (ec *executionContext) ___Directive_args(ctx context.Context, field graphql
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ,
+		ec.marshalN__InputValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ,
 		true,
 		true,
 	)
@@ -13233,7 +13233,7 @@ func (ec *executionContext) ___Field_args(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ,
+		ec.marshalN__InputValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ,
 		true,
 		true,
 	)
@@ -13289,7 +13289,7 @@ func (ec *executionContext) ___Field_type(ctx context.Context, field graphql.Col
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalN__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		true,
 	)
@@ -13468,7 +13468,7 @@ func (ec *executionContext) ___InputValue_type(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalN__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		true,
 	)
@@ -13647,7 +13647,7 @@ func (ec *executionContext) ___Schema_types(ctx context.Context, field graphql.C
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ,
+		ec.marshalN__Type2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ,
 		true,
 		true,
 	)
@@ -13702,7 +13702,7 @@ func (ec *executionContext) ___Schema_queryType(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalN__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		true,
 	)
@@ -13757,7 +13757,7 @@ func (ec *executionContext) ___Schema_mutationType(ctx context.Context, field gr
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalO__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		false,
 	)
@@ -13812,7 +13812,7 @@ func (ec *executionContext) ___Schema_subscriptionType(ctx context.Context, fiel
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalO__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		false,
 	)
@@ -13867,7 +13867,7 @@ func (ec *executionContext) ___Schema_directives(ctx context.Context, field grap
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalN__Directive2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ,
+		ec.marshalN__Directive2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ,
 		true,
 		true,
 	)
@@ -14035,7 +14035,7 @@ func (ec *executionContext) ___Type_fields(ctx context.Context, field graphql.Co
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ,
+		ec.marshalO__Field2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ,
 		true,
 		false,
 	)
@@ -14091,7 +14091,7 @@ func (ec *executionContext) ___Type_interfaces(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ,
+		ec.marshalO__Type2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ,
 		true,
 		false,
 	)
@@ -14146,7 +14146,7 @@ func (ec *executionContext) ___Type_possibleTypes(ctx context.Context, field gra
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ,
+		ec.marshalO__Type2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ,
 		true,
 		false,
 	)
@@ -14202,7 +14202,7 @@ func (ec *executionContext) ___Type_enumValues(ctx context.Context, field graphq
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ,
+		ec.marshalO__EnumValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ,
 		true,
 		false,
 	)
@@ -14254,7 +14254,7 @@ func (ec *executionContext) ___Type_inputFields(ctx context.Context, field graph
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ,
+		ec.marshalO__InputValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ,
 		true,
 		false,
 	)
@@ -14299,7 +14299,7 @@ func (ec *executionContext) ___Type_ofType(ctx context.Context, field graphql.Co
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
+		ec.marshalO__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType,
 		true,
 		false,
 	)
@@ -14734,14 +14734,14 @@ func (ec *executionContext) unmarshalInputInputDirectives(ctx context.Context, o
 			}
 		case "inner":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("inner"))
-			data, err := ec.unmarshalNInnerDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx, v)
+			data, err := ec.unmarshalNInnerDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Inner = data
 		case "innerNullable":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("innerNullable"))
-			data, err := ec.unmarshalOInnerDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx, v)
+			data, err := ec.unmarshalOInnerDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -14749,7 +14749,7 @@ func (ec *executionContext) unmarshalInputInputDirectives(ctx context.Context, o
 		case "thirdParty":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("thirdParty"))
 			directive0 := func(ctx context.Context) (any, error) {
-				return ec.unmarshalOThirdParty2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx, v)
+				return ec.unmarshalOThirdParty2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx, v)
 			}
 
 			directive1 := func(ctx context.Context) (any, error) {
@@ -14819,7 +14819,7 @@ func (ec *executionContext) unmarshalInputInputWithEnumValue(ctx context.Context
 		switch k {
 		case "enum":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("enum"))
-			data, err := ec.unmarshalNEnumTest2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest(ctx, v)
+			data, err := ec.unmarshalNEnumTest2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -14845,7 +14845,7 @@ func (ec *executionContext) unmarshalInputMapNestedInput(ctx context.Context, ob
 		switch k {
 		case "value":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("value"))
-			data, err := ec.unmarshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx, v)
+			data, err := ec.unmarshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -14918,14 +14918,14 @@ func (ec *executionContext) unmarshalInputMapStringInterfaceInput(ctx context.Co
 			it["b"] = data
 		case "c":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("c"))
-			data, err := ec.unmarshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx, v)
+			data, err := ec.unmarshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it["c"] = data
 		case "nested":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("nested"))
-			data, err := ec.unmarshalOMapNestedInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested(ctx, v)
+			data, err := ec.unmarshalOMapNestedInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -14951,7 +14951,7 @@ func (ec *executionContext) unmarshalInputNestedInput(ctx context.Context, obj a
 		switch k {
 		case "field":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("field"))
-			data, err := ec.unmarshalNEmail2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmail(ctx, v)
+			data, err := ec.unmarshalNEmail2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmail(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -15038,21 +15038,21 @@ func (ec *executionContext) unmarshalInputOmittableInput(ctx context.Context, ob
 			it.Time = graphql.OmittableOf(data)
 		case "enum":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("enum"))
-			data, err := ec.unmarshalOStatus2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStatus(ctx, v)
+			data, err := ec.unmarshalOStatus2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStatus(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Enum = graphql.OmittableOf(data)
 		case "scalar":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("scalar"))
-			data, err := ec.unmarshalOThirdParty2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx, v)
+			data, err := ec.unmarshalOThirdParty2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Scalar = graphql.OmittableOf(data)
 		case "object":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("object"))
-			data, err := ec.unmarshalOOuterInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx, v)
+			data, err := ec.unmarshalOOuterInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -15078,7 +15078,7 @@ func (ec *executionContext) unmarshalInputOuterInput(ctx context.Context, obj an
 		switch k {
 		case "inner":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("inner"))
-			data, err := ec.unmarshalNInnerInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx, v)
+			data, err := ec.unmarshalNInnerInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -15104,7 +15104,7 @@ func (ec *executionContext) unmarshalInputOuterWrapperInput(ctx context.Context,
 		switch k {
 		case "inner":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("inner"))
-			data, err := ec.unmarshalNInputDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx, v)
+			data, err := ec.unmarshalNInputDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -15130,7 +15130,7 @@ func (ec *executionContext) unmarshalInputRecursiveInputSlice(ctx context.Contex
 		switch k {
 		case "self":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("self"))
-			data, err := ec.unmarshalORecursiveInputSlice2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSliceᚄ(ctx, v)
+			data, err := ec.unmarshalORecursiveInputSlice2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSliceᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -15279,7 +15279,7 @@ func (ec *executionContext) unmarshalInputSpecialInput(ctx context.Context, obj 
 		switch k {
 		case "nesting":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("nesting"))
-			data, err := ec.unmarshalNNestedInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedInput(ctx, v)
+			data, err := ec.unmarshalNNestedInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -15385,14 +15385,14 @@ func (ec *executionContext) unmarshalInputUpdatePtrToPtrOuter(ctx context.Contex
 			it.Name = data
 		case "inner":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("inner"))
-			data, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+			data, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Inner = data
 		case "stupidInner":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stupidInner"))
-			data, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+			data, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -21444,7 +21444,7 @@ func (ec *executionContext) marshalNBytes2ᚕbyte(ctx context.Context, sel ast.S
 	return res
 }
 
-func (ec *executionContext) marshalNCheckIssue8962ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx context.Context, sel ast.SelectionSet, v *CheckIssue896) graphql.Marshaler {
+func (ec *executionContext) marshalNCheckIssue8962ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx context.Context, sel ast.SelectionSet, v *CheckIssue896) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21454,26 +21454,26 @@ func (ec *executionContext) marshalNCheckIssue8962ᚖgithubᚗcomᚋ99designsᚋ
 	return ec._CheckIssue896(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, v any) (CustomScalar, error) {
+func (ec *executionContext) unmarshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, v any) (CustomScalar, error) {
 	var res CustomScalar
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v CustomScalar) graphql.Marshaler {
+func (ec *executionContext) marshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v CustomScalar) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) unmarshalNDefaultInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultInput(ctx context.Context, v any) (DefaultInput, error) {
+func (ec *executionContext) unmarshalNDefaultInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultInput(ctx context.Context, v any) (DefaultInput, error) {
 	res, err := ec.unmarshalInputDefaultInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNDefaultParametersMirror2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror(ctx context.Context, sel ast.SelectionSet, v DefaultParametersMirror) graphql.Marshaler {
+func (ec *executionContext) marshalNDefaultParametersMirror2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror(ctx context.Context, sel ast.SelectionSet, v DefaultParametersMirror) graphql.Marshaler {
 	return ec._DefaultParametersMirror(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDefaultParametersMirror2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror(ctx context.Context, sel ast.SelectionSet, v *DefaultParametersMirror) graphql.Marshaler {
+func (ec *executionContext) marshalNDefaultParametersMirror2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDefaultParametersMirror(ctx context.Context, sel ast.SelectionSet, v *DefaultParametersMirror) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21499,7 +21499,7 @@ func (ec *executionContext) marshalNDefaultScalarImplementation2string(ctx conte
 	return res
 }
 
-func (ec *executionContext) marshalNDeferModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel(ctx context.Context, sel ast.SelectionSet, v *DeferModel) graphql.Marshaler {
+func (ec *executionContext) marshalNDeferModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel(ctx context.Context, sel ast.SelectionSet, v *DeferModel) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21509,31 +21509,31 @@ func (ec *executionContext) marshalNDeferModel2ᚖgithubᚗcomᚋ99designsᚋgql
 	return ec._DeferModel(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNEmail2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmail(ctx context.Context, v any) (Email, error) {
+func (ec *executionContext) unmarshalNEmail2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmail(ctx context.Context, v any) (Email, error) {
 	var res Email
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNEmail2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmail(ctx context.Context, sel ast.SelectionSet, v Email) graphql.Marshaler {
+func (ec *executionContext) marshalNEmail2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmail(ctx context.Context, sel ast.SelectionSet, v Email) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) unmarshalNEnumTest2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest(ctx context.Context, v any) (EnumTest, error) {
+func (ec *executionContext) unmarshalNEnumTest2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest(ctx context.Context, v any) (EnumTest, error) {
 	var res EnumTest
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNEnumTest2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest(ctx context.Context, sel ast.SelectionSet, v EnumTest) graphql.Marshaler {
+func (ec *executionContext) marshalNEnumTest2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEnumTest(ctx context.Context, sel ast.SelectionSet, v EnumTest) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) marshalNError2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v Error) graphql.Marshaler {
+func (ec *executionContext) marshalNError2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v Error) graphql.Marshaler {
 	return ec._Error(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v *Error) graphql.Marshaler {
+func (ec *executionContext) marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v *Error) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21543,13 +21543,13 @@ func (ec *executionContext) marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgen�
 	return ec._Error(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNFallbackToStringEncoding2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding(ctx context.Context, v any) (FallbackToStringEncoding, error) {
+func (ec *executionContext) unmarshalNFallbackToStringEncoding2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding(ctx context.Context, v any) (FallbackToStringEncoding, error) {
 	tmp, err := graphql.UnmarshalString(v)
 	res := FallbackToStringEncoding(tmp)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNFallbackToStringEncoding2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding(ctx context.Context, sel ast.SelectionSet, v FallbackToStringEncoding) graphql.Marshaler {
+func (ec *executionContext) marshalNFallbackToStringEncoding2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFallbackToStringEncoding(ctx context.Context, sel ast.SelectionSet, v FallbackToStringEncoding) graphql.Marshaler {
 	_ = sel
 	res := graphql.MarshalString(string(v))
 	if res == graphql.Null {
@@ -21560,16 +21560,16 @@ func (ec *executionContext) marshalNFallbackToStringEncoding2githubᚗcomᚋ99de
 	return res
 }
 
-func (ec *executionContext) unmarshalNFieldsOrderInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderInput(ctx context.Context, v any) (FieldsOrderInput, error) {
+func (ec *executionContext) unmarshalNFieldsOrderInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderInput(ctx context.Context, v any) (FieldsOrderInput, error) {
 	res, err := ec.unmarshalInputFieldsOrderInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNFieldsOrderPayload2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderPayload(ctx context.Context, sel ast.SelectionSet, v FieldsOrderPayload) graphql.Marshaler {
+func (ec *executionContext) marshalNFieldsOrderPayload2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderPayload(ctx context.Context, sel ast.SelectionSet, v FieldsOrderPayload) graphql.Marshaler {
 	return ec._FieldsOrderPayload(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNFieldsOrderPayload2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderPayload(ctx context.Context, sel ast.SelectionSet, v *FieldsOrderPayload) graphql.Marshaler {
+func (ec *executionContext) marshalNFieldsOrderPayload2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐFieldsOrderPayload(ctx context.Context, sel ast.SelectionSet, v *FieldsOrderPayload) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21627,22 +21627,22 @@ func (ec *executionContext) marshalNID2string(ctx context.Context, sel ast.Selec
 	return res
 }
 
-func (ec *executionContext) unmarshalNInnerDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx context.Context, v any) (*InnerDirectives, error) {
+func (ec *executionContext) unmarshalNInnerDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx context.Context, v any) (*InnerDirectives, error) {
 	res, err := ec.unmarshalInputInnerDirectives(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNInnerInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx context.Context, v any) (InnerInput, error) {
+func (ec *executionContext) unmarshalNInnerInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx context.Context, v any) (InnerInput, error) {
 	res, err := ec.unmarshalInputInnerInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNInnerInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx context.Context, v any) (*InnerInput, error) {
+func (ec *executionContext) unmarshalNInnerInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerInput(ctx context.Context, v any) (*InnerInput, error) {
 	res, err := ec.unmarshalInputInnerInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNInnerObject2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerObject(ctx context.Context, sel ast.SelectionSet, v *InnerObject) graphql.Marshaler {
+func (ec *executionContext) marshalNInnerObject2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerObject(ctx context.Context, sel ast.SelectionSet, v *InnerObject) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21652,12 +21652,12 @@ func (ec *executionContext) marshalNInnerObject2ᚖgithubᚗcomᚋ99designsᚋgq
 	return ec._InnerObject(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNInputDirectives2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx context.Context, v any) (InputDirectives, error) {
+func (ec *executionContext) unmarshalNInputDirectives2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx context.Context, v any) (InputDirectives, error) {
 	res, err := ec.unmarshalInputInputDirectives(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNInputDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx context.Context, v any) (*InputDirectives, error) {
+func (ec *executionContext) unmarshalNInputDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx context.Context, v any) (*InputDirectives, error) {
 	res, err := ec.unmarshalInputInputDirectives(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -21710,7 +21710,7 @@ func (ec *executionContext) marshalNInt2int64(ctx context.Context, sel ast.Selec
 	return res
 }
 
-func (ec *executionContext) marshalNLoopA2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopA(ctx context.Context, sel ast.SelectionSet, v *LoopA) graphql.Marshaler {
+func (ec *executionContext) marshalNLoopA2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopA(ctx context.Context, sel ast.SelectionSet, v *LoopA) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21720,7 +21720,7 @@ func (ec *executionContext) marshalNLoopA2ᚖgithubᚗcomᚋ99designsᚋgqlgen�
 	return ec._LoopA(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNLoopB2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopB(ctx context.Context, sel ast.SelectionSet, v *LoopB) graphql.Marshaler {
+func (ec *executionContext) marshalNLoopB2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐLoopB(ctx context.Context, sel ast.SelectionSet, v *LoopB) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21735,24 +21735,24 @@ func (ec *executionContext) unmarshalNMapNestedMapSliceInput2map(ctx context.Con
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNMarshalPanic2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx context.Context, v any) (MarshalPanic, error) {
+func (ec *executionContext) unmarshalNMarshalPanic2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx context.Context, v any) (MarshalPanic, error) {
 	var res MarshalPanic
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMarshalPanic2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx context.Context, sel ast.SelectionSet, v MarshalPanic) graphql.Marshaler {
+func (ec *executionContext) marshalNMarshalPanic2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx context.Context, sel ast.SelectionSet, v MarshalPanic) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) unmarshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ(ctx context.Context, v any) ([]MarshalPanic, error) {
+func (ec *executionContext) unmarshalNMarshalPanic2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ(ctx context.Context, v any) ([]MarshalPanic, error) {
 	var vSlice []any
 	vSlice = graphql.CoerceList(v)
 	var err error
 	res := make([]MarshalPanic, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMarshalPanic2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMarshalPanic2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -21760,10 +21760,10 @@ func (ec *executionContext) unmarshalNMarshalPanic2ᚕgithubᚗcomᚋ99designs�
 	return res, nil
 }
 
-func (ec *executionContext) marshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ(ctx context.Context, sel ast.SelectionSet, v []MarshalPanic) graphql.Marshaler {
+func (ec *executionContext) marshalNMarshalPanic2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanicᚄ(ctx context.Context, sel ast.SelectionSet, v []MarshalPanic) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	for i := range v {
-		ret[i] = ec.marshalNMarshalPanic2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx, sel, v[i])
+		ret[i] = ec.marshalNMarshalPanic2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMarshalPanic(ctx, sel, v[i])
 	}
 
 	for _, e := range ret {
@@ -21775,12 +21775,12 @@ func (ec *executionContext) marshalNMarshalPanic2ᚕgithubᚗcomᚋ99designsᚋg
 	return ret
 }
 
-func (ec *executionContext) unmarshalNNestedInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedInput(ctx context.Context, v any) (*NestedInput, error) {
+func (ec *executionContext) unmarshalNNestedInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedInput(ctx context.Context, v any) (*NestedInput, error) {
 	res, err := ec.unmarshalInputNestedInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNNode2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode(ctx context.Context, sel ast.SelectionSet, v Node) graphql.Marshaler {
+func (ec *executionContext) marshalNNode2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNode(ctx context.Context, sel ast.SelectionSet, v Node) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21790,17 +21790,17 @@ func (ec *executionContext) marshalNNode2githubᚗcomᚋ99designsᚋgqlgenᚋcod
 	return ec._Node(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNOmittableInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOmittableInput(ctx context.Context, v any) (OmittableInput, error) {
+func (ec *executionContext) unmarshalNOmittableInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOmittableInput(ctx context.Context, v any) (OmittableInput, error) {
 	res, err := ec.unmarshalInputOmittableInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNOuterWrapperInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterWrapperInput(ctx context.Context, v any) (OuterWrapperInput, error) {
+func (ec *executionContext) unmarshalNOuterWrapperInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterWrapperInput(ctx context.Context, v any) (OuterWrapperInput, error) {
 	res, err := ec.unmarshalInputOuterWrapperInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNPet2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPet(ctx context.Context, sel ast.SelectionSet, v *Pet) graphql.Marshaler {
+func (ec *executionContext) marshalNPet2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPet(ctx context.Context, sel ast.SelectionSet, v *Pet) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21810,15 +21810,15 @@ func (ec *executionContext) marshalNPet2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋc
 	return ec._Pet(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPrimitive2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitive(ctx context.Context, sel ast.SelectionSet, v Primitive) graphql.Marshaler {
+func (ec *executionContext) marshalNPrimitive2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitive(ctx context.Context, sel ast.SelectionSet, v Primitive) graphql.Marshaler {
 	return ec._Primitive(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPrimitive2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveᚄ(ctx context.Context, sel ast.SelectionSet, v []Primitive) graphql.Marshaler {
+func (ec *executionContext) marshalNPrimitive2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveᚄ(ctx context.Context, sel ast.SelectionSet, v []Primitive) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNPrimitive2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitive(ctx, sel, v[i])
+		return ec.marshalNPrimitive2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitive(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -21830,15 +21830,15 @@ func (ec *executionContext) marshalNPrimitive2ᚕgithubᚗcomᚋ99designsᚋgqlg
 	return ret
 }
 
-func (ec *executionContext) marshalNPrimitiveString2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveString(ctx context.Context, sel ast.SelectionSet, v PrimitiveString) graphql.Marshaler {
+func (ec *executionContext) marshalNPrimitiveString2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveString(ctx context.Context, sel ast.SelectionSet, v PrimitiveString) graphql.Marshaler {
 	return ec._PrimitiveString(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPrimitiveString2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveStringᚄ(ctx context.Context, sel ast.SelectionSet, v []PrimitiveString) graphql.Marshaler {
+func (ec *executionContext) marshalNPrimitiveString2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveStringᚄ(ctx context.Context, sel ast.SelectionSet, v []PrimitiveString) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNPrimitiveString2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveString(ctx, sel, v[i])
+		return ec.marshalNPrimitiveString2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPrimitiveString(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -21850,11 +21850,11 @@ func (ec *executionContext) marshalNPrimitiveString2ᚕgithubᚗcomᚋ99designs�
 	return ret
 }
 
-func (ec *executionContext) marshalNPtrToAnyContainer2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToAnyContainer(ctx context.Context, sel ast.SelectionSet, v PtrToAnyContainer) graphql.Marshaler {
+func (ec *executionContext) marshalNPtrToAnyContainer2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToAnyContainer(ctx context.Context, sel ast.SelectionSet, v PtrToAnyContainer) graphql.Marshaler {
 	return ec._PtrToAnyContainer(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPtrToAnyContainer2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToAnyContainer(ctx context.Context, sel ast.SelectionSet, v *PtrToAnyContainer) graphql.Marshaler {
+func (ec *executionContext) marshalNPtrToAnyContainer2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToAnyContainer(ctx context.Context, sel ast.SelectionSet, v *PtrToAnyContainer) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21864,11 +21864,11 @@ func (ec *executionContext) marshalNPtrToAnyContainer2ᚖgithubᚗcomᚋ99design
 	return ec._PtrToAnyContainer(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPtrToPtrOuter2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrOuter(ctx context.Context, sel ast.SelectionSet, v PtrToPtrOuter) graphql.Marshaler {
+func (ec *executionContext) marshalNPtrToPtrOuter2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrOuter(ctx context.Context, sel ast.SelectionSet, v PtrToPtrOuter) graphql.Marshaler {
 	return ec._PtrToPtrOuter(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPtrToPtrOuter2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrOuter(ctx context.Context, sel ast.SelectionSet, v *PtrToPtrOuter) graphql.Marshaler {
+func (ec *executionContext) marshalNPtrToPtrOuter2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrOuter(ctx context.Context, sel ast.SelectionSet, v *PtrToPtrOuter) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21878,11 +21878,11 @@ func (ec *executionContext) marshalNPtrToPtrOuter2ᚖgithubᚗcomᚋ99designsᚋ
 	return ec._PtrToPtrOuter(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPtrToSliceContainer2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToSliceContainer(ctx context.Context, sel ast.SelectionSet, v PtrToSliceContainer) graphql.Marshaler {
+func (ec *executionContext) marshalNPtrToSliceContainer2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToSliceContainer(ctx context.Context, sel ast.SelectionSet, v PtrToSliceContainer) graphql.Marshaler {
 	return ec._PtrToSliceContainer(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPtrToSliceContainer2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToSliceContainer(ctx context.Context, sel ast.SelectionSet, v *PtrToSliceContainer) graphql.Marshaler {
+func (ec *executionContext) marshalNPtrToSliceContainer2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToSliceContainer(ctx context.Context, sel ast.SelectionSet, v *PtrToSliceContainer) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21892,12 +21892,12 @@ func (ec *executionContext) marshalNPtrToSliceContainer2ᚖgithubᚗcomᚋ99desi
 	return ec._PtrToSliceContainer(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNRecursiveInputSlice2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice(ctx context.Context, v any) (RecursiveInputSlice, error) {
+func (ec *executionContext) unmarshalNRecursiveInputSlice2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice(ctx context.Context, v any) (RecursiveInputSlice, error) {
 	res, err := ec.unmarshalInputRecursiveInputSlice(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNShapeUnion2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShapeUnion(ctx context.Context, sel ast.SelectionSet, v ShapeUnion) graphql.Marshaler {
+func (ec *executionContext) marshalNShapeUnion2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShapeUnion(ctx context.Context, sel ast.SelectionSet, v ShapeUnion) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21907,7 +21907,7 @@ func (ec *executionContext) marshalNShapeUnion2githubᚗcomᚋ99designsᚋgqlgen
 	return ec._ShapeUnion(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNSize2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize(ctx context.Context, sel ast.SelectionSet, v *Size) graphql.Marshaler {
+func (ec *executionContext) marshalNSize2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSize(ctx context.Context, sel ast.SelectionSet, v *Size) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -21917,7 +21917,7 @@ func (ec *executionContext) marshalNSize2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ
 	return ec._Size(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNSpecialInput2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSpecialInput(ctx context.Context, v any) (SpecialInput, error) {
+func (ec *executionContext) unmarshalNSpecialInput2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSpecialInput(ctx context.Context, v any) (SpecialInput, error) {
 	res, err := ec.unmarshalInputSpecialInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
@@ -22030,23 +22030,23 @@ func (ec *executionContext) marshalNStringFromContextFunction2string(ctx context
 	return graphql.WrapContextMarshaler(ctx, res)
 }
 
-func (ec *executionContext) unmarshalNStringFromContextInterface2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, v any) (StringFromContextInterface, error) {
+func (ec *executionContext) unmarshalNStringFromContextInterface2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, v any) (StringFromContextInterface, error) {
 	var res StringFromContextInterface
 	err := res.UnmarshalGQLContext(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNStringFromContextInterface2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, sel ast.SelectionSet, v StringFromContextInterface) graphql.Marshaler {
+func (ec *executionContext) marshalNStringFromContextInterface2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, sel ast.SelectionSet, v StringFromContextInterface) graphql.Marshaler {
 	return graphql.WrapContextMarshaler(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNStringFromContextInterface2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, v any) (*StringFromContextInterface, error) {
+func (ec *executionContext) unmarshalNStringFromContextInterface2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, v any) (*StringFromContextInterface, error) {
 	var res = new(StringFromContextInterface)
 	err := res.UnmarshalGQLContext(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNStringFromContextInterface2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, sel ast.SelectionSet, v *StringFromContextInterface) graphql.Marshaler {
+func (ec *executionContext) marshalNStringFromContextInterface2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStringFromContextInterface(ctx context.Context, sel ast.SelectionSet, v *StringFromContextInterface) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -22088,20 +22088,20 @@ func (ec *executionContext) marshalNUUID2string(ctx context.Context, sel ast.Sel
 	return res
 }
 
-func (ec *executionContext) unmarshalNUpdatePtrToPtrOuter2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrOuter(ctx context.Context, v any) (UpdatePtrToPtrOuter, error) {
+func (ec *executionContext) unmarshalNUpdatePtrToPtrOuter2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrOuter(ctx context.Context, v any) (UpdatePtrToPtrOuter, error) {
 	res, err := ec.unmarshalInputUpdatePtrToPtrOuter(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNUser2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser(ctx context.Context, sel ast.SelectionSet, v User) graphql.Marshaler {
+func (ec *executionContext) marshalNUser2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser(ctx context.Context, sel ast.SelectionSet, v User) graphql.Marshaler {
 	return ec._User(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUser2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUserᚄ(ctx context.Context, sel ast.SelectionSet, v []*User) graphql.Marshaler {
+func (ec *executionContext) marshalNUser2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUserᚄ(ctx context.Context, sel ast.SelectionSet, v []*User) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNUser2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser(ctx, sel, v[i])
+		return ec.marshalNUser2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22113,7 +22113,7 @@ func (ec *executionContext) marshalNUser2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgen
 	return ret
 }
 
-func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser(ctx context.Context, sel ast.SelectionSet, v *User) graphql.Marshaler {
+func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUser(ctx context.Context, sel ast.SelectionSet, v *User) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -22123,7 +22123,7 @@ func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ
 	return ec._User(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNWrappedMap2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedMap(ctx context.Context, sel ast.SelectionSet, v WrappedMap) graphql.Marshaler {
+func (ec *executionContext) marshalNWrappedMap2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedMap(ctx context.Context, sel ast.SelectionSet, v WrappedMap) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -22133,13 +22133,13 @@ func (ec *executionContext) marshalNWrappedMap2githubᚗcomᚋ99designsᚋgqlgen
 	return ec._WrappedMap(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNWrappedScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, v any) (otherpkg.Scalar, error) {
+func (ec *executionContext) unmarshalNWrappedScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, v any) (otherpkg.Scalar, error) {
 	tmp, err := graphql.UnmarshalString(v)
 	res := otherpkg.Scalar(tmp)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNWrappedScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, sel ast.SelectionSet, v otherpkg.Scalar) graphql.Marshaler {
+func (ec *executionContext) marshalNWrappedScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, sel ast.SelectionSet, v otherpkg.Scalar) graphql.Marshaler {
 	_ = sel
 	res := graphql.MarshalString(string(v))
 	if res == graphql.Null {
@@ -22150,7 +22150,7 @@ func (ec *executionContext) marshalNWrappedScalar2githubᚗcomᚋ99designsᚋgql
 	return res
 }
 
-func (ec *executionContext) marshalNWrappedSlice2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedSlice(ctx context.Context, sel ast.SelectionSet, v WrappedSlice) graphql.Marshaler {
+func (ec *executionContext) marshalNWrappedSlice2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedSlice(ctx context.Context, sel ast.SelectionSet, v WrappedSlice) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -22160,11 +22160,11 @@ func (ec *executionContext) marshalNWrappedSlice2githubᚗcomᚋ99designsᚋgqlg
 	return ec._WrappedSlice(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNWrappedStruct2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedStruct(ctx context.Context, sel ast.SelectionSet, v WrappedStruct) graphql.Marshaler {
+func (ec *executionContext) marshalNWrappedStruct2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedStruct(ctx context.Context, sel ast.SelectionSet, v WrappedStruct) graphql.Marshaler {
 	return ec._WrappedStruct(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNWrappedStruct2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedStruct(ctx context.Context, sel ast.SelectionSet, v *WrappedStruct) graphql.Marshaler {
+func (ec *executionContext) marshalNWrappedStruct2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐWrappedStruct(ctx context.Context, sel ast.SelectionSet, v *WrappedStruct) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -22174,15 +22174,15 @@ func (ec *executionContext) marshalNWrappedStruct2ᚖgithubᚗcomᚋ99designsᚋ
 	return ec._WrappedStruct(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalN__Directive2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx context.Context, sel ast.SelectionSet, v introspection.Directive) graphql.Marshaler {
+func (ec *executionContext) marshalN__Directive2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx context.Context, sel ast.SelectionSet, v introspection.Directive) graphql.Marshaler {
 	return ec.___Directive(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__Directive2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Directive) graphql.Marshaler {
+func (ec *executionContext) marshalN__Directive2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Directive) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__Directive2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx, sel, v[i])
+		return ec.marshalN__Directive2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22241,23 +22241,23 @@ func (ec *executionContext) marshalN__DirectiveLocation2ᚕstringᚄ(ctx context
 	return ret
 }
 
-func (ec *executionContext) marshalN__EnumValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx context.Context, sel ast.SelectionSet, v introspection.EnumValue) graphql.Marshaler {
+func (ec *executionContext) marshalN__EnumValue2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx context.Context, sel ast.SelectionSet, v introspection.EnumValue) graphql.Marshaler {
 	return ec.___EnumValue(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__Field2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx context.Context, sel ast.SelectionSet, v introspection.Field) graphql.Marshaler {
+func (ec *executionContext) marshalN__Field2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx context.Context, sel ast.SelectionSet, v introspection.Field) graphql.Marshaler {
 	return ec.___Field(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__InputValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx context.Context, sel ast.SelectionSet, v introspection.InputValue) graphql.Marshaler {
+func (ec *executionContext) marshalN__InputValue2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx context.Context, sel ast.SelectionSet, v introspection.InputValue) graphql.Marshaler {
 	return ec.___InputValue(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
+func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__InputValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
+		return ec.marshalN__InputValue2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22269,15 +22269,15 @@ func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋg
 	return ret
 }
 
-func (ec *executionContext) marshalN__Type2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalN__Type2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v introspection.Type) graphql.Marshaler {
 	return ec.___Type(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__Type2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
+		return ec.marshalN__Type2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22289,7 +22289,7 @@ func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgen�
 	return ret
 }
 
-func (ec *executionContext) marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalN__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -22315,7 +22315,7 @@ func (ec *executionContext) marshalN__TypeKind2string(ctx context.Context, sel a
 	return res
 }
 
-func (ec *executionContext) marshalOAnimal2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAnimal(ctx context.Context, sel ast.SelectionSet, v Animal) graphql.Marshaler {
+func (ec *executionContext) marshalOAnimal2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAnimal(ctx context.Context, sel ast.SelectionSet, v Animal) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -22352,14 +22352,14 @@ func (ec *executionContext) marshalOAny2ᚖinterface(ctx context.Context, sel as
 	return ec.marshalOAny2interface(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOAutobind2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAutobind(ctx context.Context, sel ast.SelectionSet, v *Autobind) graphql.Marshaler {
+func (ec *executionContext) marshalOAutobind2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐAutobind(ctx context.Context, sel ast.SelectionSet, v *Autobind) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Autobind(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOBackedByInterface2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐBackedByInterface(ctx context.Context, sel ast.SelectionSet, v BackedByInterface) graphql.Marshaler {
+func (ec *executionContext) marshalOBackedByInterface2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐBackedByInterface(ctx context.Context, sel ast.SelectionSet, v BackedByInterface) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -22404,27 +22404,27 @@ func (ec *executionContext) unmarshalOChanges2map(ctx context.Context, v any) (m
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx context.Context, sel ast.SelectionSet, v []*CheckIssue896) graphql.Marshaler {
+func (ec *executionContext) marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx context.Context, sel ast.SelectionSet, v []*CheckIssue896) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOCheckIssue8962ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx, sel, v[i])
+		return ec.marshalOCheckIssue8962ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896ᚄ(ctx context.Context, sel ast.SelectionSet, v []*CheckIssue896) graphql.Marshaler {
+func (ec *executionContext) marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896ᚄ(ctx context.Context, sel ast.SelectionSet, v []*CheckIssue896) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNCheckIssue8962ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx, sel, v[i])
+		return ec.marshalNCheckIssue8962ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22436,25 +22436,25 @@ func (ec *executionContext) marshalOCheckIssue8962ᚕᚖgithubᚗcomᚋ99designs
 	return ret
 }
 
-func (ec *executionContext) marshalOCheckIssue8962ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx context.Context, sel ast.SelectionSet, v *CheckIssue896) graphql.Marshaler {
+func (ec *executionContext) marshalOCheckIssue8962ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCheckIssue896(ctx context.Context, sel ast.SelectionSet, v *CheckIssue896) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._CheckIssue896(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOCircle2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCircle(ctx context.Context, sel ast.SelectionSet, v *Circle) graphql.Marshaler {
+func (ec *executionContext) marshalOCircle2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCircle(ctx context.Context, sel ast.SelectionSet, v *Circle) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Circle(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOCoordinates2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCoordinates(ctx context.Context, sel ast.SelectionSet, v Coordinates) graphql.Marshaler {
+func (ec *executionContext) marshalOCoordinates2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCoordinates(ctx context.Context, sel ast.SelectionSet, v Coordinates) graphql.Marshaler {
 	return ec._Coordinates(ctx, sel, &v)
 }
 
-func (ec *executionContext) unmarshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, v any) (*CustomScalar, error) {
+func (ec *executionContext) unmarshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, v any) (*CustomScalar, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22463,7 +22463,7 @@ func (ec *executionContext) unmarshalOCustomScalar2ᚖgithubᚗcomᚋ99designs�
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v *CustomScalar) graphql.Marshaler {
+func (ec *executionContext) marshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v *CustomScalar) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -22488,14 +22488,14 @@ func (ec *executionContext) marshalODefaultScalarImplementation2ᚖstring(ctx co
 	return res
 }
 
-func (ec *executionContext) marshalODeferModel2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModelᚄ(ctx context.Context, sel ast.SelectionSet, v []*DeferModel) graphql.Marshaler {
+func (ec *executionContext) marshalODeferModel2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModelᚄ(ctx context.Context, sel ast.SelectionSet, v []*DeferModel) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNDeferModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel(ctx, sel, v[i])
+		return ec.marshalNDeferModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22507,62 +22507,62 @@ func (ec *executionContext) marshalODeferModel2ᚕᚖgithubᚗcomᚋ99designsᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalODeferModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel(ctx context.Context, sel ast.SelectionSet, v *DeferModel) graphql.Marshaler {
+func (ec *executionContext) marshalODeferModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDeferModel(ctx context.Context, sel ast.SelectionSet, v *DeferModel) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._DeferModel(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalODog2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDog(ctx context.Context, sel ast.SelectionSet, v *Dog) graphql.Marshaler {
+func (ec *executionContext) marshalODog2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐDog(ctx context.Context, sel ast.SelectionSet, v *Dog) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Dog(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOEmbeddedCase12ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase1(ctx context.Context, sel ast.SelectionSet, v *EmbeddedCase1) graphql.Marshaler {
+func (ec *executionContext) marshalOEmbeddedCase12ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase1(ctx context.Context, sel ast.SelectionSet, v *EmbeddedCase1) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._EmbeddedCase1(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOEmbeddedCase22ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase2(ctx context.Context, sel ast.SelectionSet, v *EmbeddedCase2) graphql.Marshaler {
+func (ec *executionContext) marshalOEmbeddedCase22ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase2(ctx context.Context, sel ast.SelectionSet, v *EmbeddedCase2) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._EmbeddedCase2(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOEmbeddedCase32ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase3(ctx context.Context, sel ast.SelectionSet, v *EmbeddedCase3) graphql.Marshaler {
+func (ec *executionContext) marshalOEmbeddedCase32ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐEmbeddedCase3(ctx context.Context, sel ast.SelectionSet, v *EmbeddedCase3) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._EmbeddedCase3(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOError2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v []*Error) graphql.Marshaler {
+func (ec *executionContext) marshalOError2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v []*Error) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx, sel, v[i])
+		return ec.marshalOError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOError2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrorᚄ(ctx context.Context, sel ast.SelectionSet, v []*Error) graphql.Marshaler {
+func (ec *executionContext) marshalOError2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrorᚄ(ctx context.Context, sel ast.SelectionSet, v []*Error) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx, sel, v[i])
+		return ec.marshalNError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22574,14 +22574,14 @@ func (ec *executionContext) marshalOError2ᚕᚖgithubᚗcomᚋ99designsᚋgqlge
 	return ret
 }
 
-func (ec *executionContext) marshalOError2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v *Error) graphql.Marshaler {
+func (ec *executionContext) marshalOError2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐError(ctx context.Context, sel ast.SelectionSet, v *Error) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Error(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOErrors2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrors(ctx context.Context, sel ast.SelectionSet, v *Errors) graphql.Marshaler {
+func (ec *executionContext) marshalOErrors2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐErrors(ctx context.Context, sel ast.SelectionSet, v *Errors) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -22634,7 +22634,7 @@ func (ec *executionContext) marshalOID2ᚖstring(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) unmarshalOInnerDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx context.Context, v any) (*InnerDirectives, error) {
+func (ec *executionContext) unmarshalOInnerDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInnerDirectives(ctx context.Context, v any) (*InnerDirectives, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22642,7 +22642,7 @@ func (ec *executionContext) unmarshalOInnerDirectives2ᚖgithubᚗcomᚋ99design
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalOInputDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx context.Context, v any) (*InputDirectives, error) {
+func (ec *executionContext) unmarshalOInputDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputDirectives(ctx context.Context, v any) (*InputDirectives, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22650,7 +22650,7 @@ func (ec *executionContext) unmarshalOInputDirectives2ᚖgithubᚗcomᚋ99design
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalOInputWithEnumValue2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputWithEnumValue(ctx context.Context, v any) (*InputWithEnumValue, error) {
+func (ec *executionContext) unmarshalOInputWithEnumValue2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐInputWithEnumValue(ctx context.Context, v any) (*InputWithEnumValue, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22676,28 +22676,28 @@ func (ec *executionContext) marshalOInt2ᚖint(ctx context.Context, sel ast.Sele
 	return res
 }
 
-func (ec *executionContext) marshalOInvalidIdentifier2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋinvalidᚑpackagenameᚐInvalidIdentifier(ctx context.Context, sel ast.SelectionSet, v *invalid_packagename.InvalidIdentifier) graphql.Marshaler {
+func (ec *executionContext) marshalOInvalidIdentifier2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋinvalidᚑpackagenameᚐInvalidIdentifier(ctx context.Context, sel ast.SelectionSet, v *invalid_packagename.InvalidIdentifier) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._InvalidIdentifier(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOIt2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋintrospectionᚐIt(ctx context.Context, sel ast.SelectionSet, v *introspection1.It) graphql.Marshaler {
+func (ec *executionContext) marshalOIt2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋintrospectionᚐIt(ctx context.Context, sel ast.SelectionSet, v *introspection1.It) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._It(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOMapNested2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested(ctx context.Context, sel ast.SelectionSet, v *MapNested) graphql.Marshaler {
+func (ec *executionContext) marshalOMapNested2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested(ctx context.Context, sel ast.SelectionSet, v *MapNested) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._MapNested(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOMapNestedInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested(ctx context.Context, v any) (*MapNested, error) {
+func (ec *executionContext) unmarshalOMapNestedInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐMapNested(ctx context.Context, v any) (*MapNested, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22746,14 +22746,14 @@ func (ec *executionContext) marshalOMapStringInterfaceType2map(ctx context.Conte
 	return ec._MapStringInterfaceType(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOModelMethods2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐModelMethods(ctx context.Context, sel ast.SelectionSet, v *ModelMethods) graphql.Marshaler {
+func (ec *executionContext) marshalOModelMethods2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐModelMethods(ctx context.Context, sel ast.SelectionSet, v *ModelMethods) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ModelMethods(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalONestedMapInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedMapInput(ctx context.Context, v any) (*NestedMapInput, error) {
+func (ec *executionContext) unmarshalONestedMapInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐNestedMapInput(ctx context.Context, v any) (*NestedMapInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22761,21 +22761,21 @@ func (ec *executionContext) unmarshalONestedMapInput2ᚖgithubᚗcomᚋ99designs
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOObjectDirectives2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectives(ctx context.Context, sel ast.SelectionSet, v *ObjectDirectives) graphql.Marshaler {
+func (ec *executionContext) marshalOObjectDirectives2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectives(ctx context.Context, sel ast.SelectionSet, v *ObjectDirectives) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ObjectDirectives(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOObjectDirectivesWithCustomGoModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectivesWithCustomGoModel(ctx context.Context, sel ast.SelectionSet, v *ObjectDirectivesWithCustomGoModel) graphql.Marshaler {
+func (ec *executionContext) marshalOObjectDirectivesWithCustomGoModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐObjectDirectivesWithCustomGoModel(ctx context.Context, sel ast.SelectionSet, v *ObjectDirectivesWithCustomGoModel) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ObjectDirectivesWithCustomGoModel(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOOuterInput2ᚕᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx context.Context, v any) ([][]*OuterInput, error) {
+func (ec *executionContext) unmarshalOOuterInput2ᚕᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx context.Context, v any) ([][]*OuterInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22785,7 +22785,7 @@ func (ec *executionContext) unmarshalOOuterInput2ᚕᚕᚖgithubᚗcomᚋ99desig
 	res := make([][]*OuterInput, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalOOuterInput2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx, vSlice[i])
+		res[i], err = ec.unmarshalOOuterInput2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -22793,7 +22793,7 @@ func (ec *executionContext) unmarshalOOuterInput2ᚕᚕᚖgithubᚗcomᚋ99desig
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOOuterInput2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx context.Context, v any) ([]*OuterInput, error) {
+func (ec *executionContext) unmarshalOOuterInput2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx context.Context, v any) ([]*OuterInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22803,7 +22803,7 @@ func (ec *executionContext) unmarshalOOuterInput2ᚕᚖgithubᚗcomᚋ99designs�
 	res := make([]*OuterInput, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalOOuterInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx, vSlice[i])
+		res[i], err = ec.unmarshalOOuterInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -22811,7 +22811,7 @@ func (ec *executionContext) unmarshalOOuterInput2ᚕᚖgithubᚗcomᚋ99designs�
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOOuterInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx context.Context, v any) (*OuterInput, error) {
+func (ec *executionContext) unmarshalOOuterInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterInput(ctx context.Context, v any) (*OuterInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22819,61 +22819,61 @@ func (ec *executionContext) unmarshalOOuterInput2ᚖgithubᚗcomᚋ99designsᚋg
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOOuterObject2ᚕᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx context.Context, sel ast.SelectionSet, v [][]*OuterObject) graphql.Marshaler {
+func (ec *executionContext) marshalOOuterObject2ᚕᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx context.Context, sel ast.SelectionSet, v [][]*OuterObject) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOOuterObject2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx, sel, v[i])
+		return ec.marshalOOuterObject2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOOuterObject2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx context.Context, sel ast.SelectionSet, v []*OuterObject) graphql.Marshaler {
+func (ec *executionContext) marshalOOuterObject2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx context.Context, sel ast.SelectionSet, v []*OuterObject) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOOuterObject2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx, sel, v[i])
+		return ec.marshalOOuterObject2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOOuterObject2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx context.Context, sel ast.SelectionSet, v *OuterObject) graphql.Marshaler {
+func (ec *executionContext) marshalOOuterObject2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOuterObject(ctx context.Context, sel ast.SelectionSet, v *OuterObject) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._OuterObject(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOOverlappingFields2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOverlappingFields(ctx context.Context, sel ast.SelectionSet, v *OverlappingFields) graphql.Marshaler {
+func (ec *executionContext) marshalOOverlappingFields2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐOverlappingFields(ctx context.Context, sel ast.SelectionSet, v *OverlappingFields) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._OverlappingFields(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPanics2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPanics(ctx context.Context, sel ast.SelectionSet, v *Panics) graphql.Marshaler {
+func (ec *executionContext) marshalOPanics2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPanics(ctx context.Context, sel ast.SelectionSet, v *Panics) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Panics(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPet2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPetᚄ(ctx context.Context, sel ast.SelectionSet, v []*Pet) graphql.Marshaler {
+func (ec *executionContext) marshalOPet2ᚕᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPetᚄ(ctx context.Context, sel ast.SelectionSet, v []*Pet) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNPet2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPet(ctx, sel, v[i])
+		return ec.marshalNPet2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPet(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -22885,56 +22885,56 @@ func (ec *executionContext) marshalOPet2ᚕᚖgithubᚗcomᚋ99designsᚋgqlgen�
 	return ret
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v *PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v *PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._PtrToPtrInner(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v **PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v **PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	return ec.marshalOPtrToPtrInner2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
+	return ec.marshalOPtrToPtrInner2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v ***PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v ***PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	return ec.marshalOPtrToPtrInner2ᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
+	return ec.marshalOPtrToPtrInner2ᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v ****PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v ****PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	return ec.marshalOPtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
+	return ec.marshalOPtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v *****PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v *****PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	return ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
+	return ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v ******PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v ******PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	return ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
+	return ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v *******PtrToPtrInner) graphql.Marshaler {
+func (ec *executionContext) marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx context.Context, sel ast.SelectionSet, v *******PtrToPtrInner) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	return ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
+	return ec.marshalOPtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐPtrToPtrInner(ctx, sel, *v)
 }
 
-func (ec *executionContext) unmarshalORecursiveInputSlice2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSliceᚄ(ctx context.Context, v any) ([]RecursiveInputSlice, error) {
+func (ec *executionContext) unmarshalORecursiveInputSlice2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSliceᚄ(ctx context.Context, v any) ([]RecursiveInputSlice, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22944,7 +22944,7 @@ func (ec *executionContext) unmarshalORecursiveInputSlice2ᚕgithubᚗcomᚋ99de
 	res := make([]RecursiveInputSlice, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNRecursiveInputSlice2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNRecursiveInputSlice2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -22952,7 +22952,7 @@ func (ec *executionContext) unmarshalORecursiveInputSlice2ᚕgithubᚗcomᚋ99de
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalORecursiveInputSlice2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice(ctx context.Context, v any) (*RecursiveInputSlice, error) {
+func (ec *executionContext) unmarshalORecursiveInputSlice2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐRecursiveInputSlice(ctx context.Context, v any) (*RecursiveInputSlice, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -22968,41 +22968,41 @@ func (ec *executionContext) unmarshalOSearchFilters2map(ctx context.Context, v a
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOShape2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape(ctx context.Context, sel ast.SelectionSet, v Shape) graphql.Marshaler {
+func (ec *executionContext) marshalOShape2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape(ctx context.Context, sel ast.SelectionSet, v Shape) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Shape(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOShape2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape(ctx context.Context, sel ast.SelectionSet, v []Shape) graphql.Marshaler {
+func (ec *executionContext) marshalOShape2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape(ctx context.Context, sel ast.SelectionSet, v []Shape) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOShape2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape(ctx, sel, v[i])
+		return ec.marshalOShape2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐShape(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOSkipIncludeTestType2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSkipIncludeTestType(ctx context.Context, sel ast.SelectionSet, v *SkipIncludeTestType) graphql.Marshaler {
+func (ec *executionContext) marshalOSkipIncludeTestType2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSkipIncludeTestType(ctx context.Context, sel ast.SelectionSet, v *SkipIncludeTestType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._SkipIncludeTestType(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOSlices2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSlices(ctx context.Context, sel ast.SelectionSet, v *Slices) graphql.Marshaler {
+func (ec *executionContext) marshalOSlices2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐSlices(ctx context.Context, sel ast.SelectionSet, v *Slices) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Slices(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOStatus2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStatus(ctx context.Context, v any) (*Status, error) {
+func (ec *executionContext) unmarshalOStatus2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStatus(ctx context.Context, v any) (*Status, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -23011,7 +23011,7 @@ func (ec *executionContext) unmarshalOStatus2ᚖgithubᚗcomᚋ99designsᚋgqlge
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOStatus2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStatus(ctx context.Context, sel ast.SelectionSet, v *Status) graphql.Marshaler {
+func (ec *executionContext) marshalOStatus2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐStatus(ctx context.Context, sel ast.SelectionSet, v *Status) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -23126,14 +23126,14 @@ func (ec *executionContext) marshalOString2ᚖᚕstringᚄ(ctx context.Context, 
 	return ec.marshalOString2ᚕstringᚄ(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOTestUnion2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐTestUnion(ctx context.Context, sel ast.SelectionSet, v TestUnion) graphql.Marshaler {
+func (ec *executionContext) marshalOTestUnion2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐTestUnion(ctx context.Context, sel ast.SelectionSet, v TestUnion) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._TestUnion(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOThirdParty2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx context.Context, v any) (*ThirdParty, error) {
+func (ec *executionContext) unmarshalOThirdParty2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx context.Context, v any) (*ThirdParty, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -23141,7 +23141,7 @@ func (ec *executionContext) unmarshalOThirdParty2ᚖgithubᚗcomᚋ99designsᚋg
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOThirdParty2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx context.Context, sel ast.SelectionSet, v *ThirdParty) graphql.Marshaler {
+func (ec *executionContext) marshalOThirdParty2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐThirdParty(ctx context.Context, sel ast.SelectionSet, v *ThirdParty) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -23169,7 +23169,7 @@ func (ec *executionContext) marshalOTime2ᚖtimeᚐTime(ctx context.Context, sel
 	return res
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (*UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (*UpdatePtrToPtrInner, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -23177,10 +23177,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖgithubᚗcomᚋ99de
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (**UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (**UpdatePtrToPtrInner, error) {
 	var pres *UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23189,10 +23189,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋ9
 	return &pres, nil
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (***UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (***UpdatePtrToPtrInner, error) {
 	var pres **UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23201,10 +23201,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖgithubᚗcom�
 	return &pres, nil
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (****UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (****UpdatePtrToPtrInner, error) {
 	var pres ***UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23213,10 +23213,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖgithubᚗc
 	return &pres, nil
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (*****UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (*****UpdatePtrToPtrInner, error) {
 	var pres ****UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23225,10 +23225,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖgithub�
 	return &pres, nil
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (******UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (******UpdatePtrToPtrInner, error) {
 	var pres *****UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23237,10 +23237,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖgith
 	return &pres, nil
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (*******UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (*******UpdatePtrToPtrInner, error) {
 	var pres ******UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23249,10 +23249,10 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖg
 	return &pres, nil
 }
 
-func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (********UpdatePtrToPtrInner, error) {
+func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx context.Context, v any) (********UpdatePtrToPtrInner, error) {
 	var pres *******UpdatePtrToPtrInner
 	if v != nil {
-		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
+		res, err := ec.unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐUpdatePtrToPtrInner(ctx, v)
 		if err != nil {
 			return nil, graphql.ErrorOnPath(ctx, err)
 		}
@@ -23261,21 +23261,21 @@ func (ec *executionContext) unmarshalOUpdatePtrToPtrInner2ᚖᚖᚖᚖᚖᚖᚖ�
 	return &pres, nil
 }
 
-func (ec *executionContext) marshalOVOkCaseNil2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseNil(ctx context.Context, sel ast.SelectionSet, v *VOkCaseNil) graphql.Marshaler {
+func (ec *executionContext) marshalOVOkCaseNil2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseNil(ctx context.Context, sel ast.SelectionSet, v *VOkCaseNil) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._VOkCaseNil(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOVOkCaseValue2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseValue(ctx context.Context, sel ast.SelectionSet, v *VOkCaseValue) graphql.Marshaler {
+func (ec *executionContext) marshalOVOkCaseValue2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVOkCaseValue(ctx context.Context, sel ast.SelectionSet, v *VOkCaseValue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._VOkCaseValue(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOValidInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidInput(ctx context.Context, v any) (*ValidInput, error) {
+func (ec *executionContext) unmarshalOValidInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidInput(ctx context.Context, v any) (*ValidInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -23283,21 +23283,21 @@ func (ec *executionContext) unmarshalOValidInput2ᚖgithubᚗcomᚋ99designsᚋg
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOValidType2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidType(ctx context.Context, sel ast.SelectionSet, v *ValidType) graphql.Marshaler {
+func (ec *executionContext) marshalOValidType2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐValidType(ctx context.Context, sel ast.SelectionSet, v *ValidType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ValidType(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOVariadicModel2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVariadicModel(ctx context.Context, sel ast.SelectionSet, v *VariadicModel) graphql.Marshaler {
+func (ec *executionContext) marshalOVariadicModel2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚐVariadicModel(ctx context.Context, sel ast.SelectionSet, v *VariadicModel) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._VariadicModel(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOWrappedScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, v any) (*otherpkg.Scalar, error) {
+func (ec *executionContext) unmarshalOWrappedScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, v any) (*otherpkg.Scalar, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -23306,7 +23306,7 @@ func (ec *executionContext) unmarshalOWrappedScalar2ᚖgithubᚗcomᚋ99designs�
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOWrappedScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, sel ast.SelectionSet, v *otherpkg.Scalar) graphql.Marshaler {
+func (ec *executionContext) marshalOWrappedScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋsinglefileᚋotherpkgᚐScalar(ctx context.Context, sel ast.SelectionSet, v *otherpkg.Scalar) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -23316,14 +23316,14 @@ func (ec *executionContext) marshalOWrappedScalar2ᚖgithubᚗcomᚋ99designsᚋ
 	return res
 }
 
-func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.EnumValue) graphql.Marshaler {
+func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.EnumValue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__EnumValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx, sel, v[i])
+		return ec.marshalN__EnumValue2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -23335,14 +23335,14 @@ func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgq
 	return ret
 }
 
-func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Field) graphql.Marshaler {
+func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Field) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__Field2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx, sel, v[i])
+		return ec.marshalN__Field2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -23354,14 +23354,14 @@ func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgen
 	return ret
 }
 
-func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
+func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__InputValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
+		return ec.marshalN__InputValue2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -23373,21 +23373,21 @@ func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋg
 	return ret
 }
 
-func (ec *executionContext) marshalO__Schema2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema(ctx context.Context, sel ast.SelectionSet, v *introspection.Schema) graphql.Marshaler {
+func (ec *executionContext) marshalO__Schema2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema(ctx context.Context, sel ast.SelectionSet, v *introspection.Schema) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec.___Schema(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalN__Type2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
+		return ec.marshalN__Type2githubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -23399,7 +23399,7 @@ func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgen�
 	return ret
 }
 
-func (ec *executionContext) marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalO__Type2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

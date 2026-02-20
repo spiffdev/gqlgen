@@ -142,7 +142,7 @@ func (ec *executionContext) _SkipIncludeTestType(ctx context.Context, sel ast.Se
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) marshalOSkipIncludeTestType2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐSkipIncludeTestType(ctx context.Context, sel ast.SelectionSet, v *SkipIncludeTestType) graphql.Marshaler {
+func (ec *executionContext) marshalOSkipIncludeTestType2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐSkipIncludeTestType(ctx context.Context, sel ast.SelectionSet, v *SkipIncludeTestType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

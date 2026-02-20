@@ -17,11 +17,11 @@ import (
 
 	"github.com/urfave/cli/v3"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/internal/code"
-	"github.com/99designs/gqlgen/plugin/servergen"
+	"github.com/spiffdev/gqlgen/api"
+	"github.com/spiffdev/gqlgen/codegen/config"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/internal/code"
+	"github.com/spiffdev/gqlgen/plugin/servergen"
 )
 
 //go:embed init-templates/schema.graphqls

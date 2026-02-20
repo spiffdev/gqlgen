@@ -39,7 +39,7 @@ func (ec *executionContext) _MapNested_value(ctx context.Context, field graphql.
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar,
+		ec.marshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar,
 		true,
 		true,
 	)
@@ -159,7 +159,7 @@ func (ec *executionContext) _MapStringInterfaceType_c(ctx context.Context, field
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar,
+		ec.marshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar,
 		true,
 		false,
 	)
@@ -199,7 +199,7 @@ func (ec *executionContext) _MapStringInterfaceType_nested(ctx context.Context, 
 		func(ctx context.Context, next graphql.Resolver) graphql.Resolver {
 			return ec._fieldMiddleware(ctx, obj, next)
 		},
-		ec.marshalOMapNested2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested,
+		ec.marshalOMapNested2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested,
 		true,
 		false,
 	)
@@ -242,7 +242,7 @@ func (ec *executionContext) unmarshalInputMapNestedInput(ctx context.Context, ob
 		switch k {
 		case "value":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("value"))
-			data, err := ec.unmarshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx, v)
+			data, err := ec.unmarshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -315,14 +315,14 @@ func (ec *executionContext) unmarshalInputMapStringInterfaceInput(ctx context.Co
 			it["b"] = data
 		case "c":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("c"))
-			data, err := ec.unmarshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx, v)
+			data, err := ec.unmarshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it["c"] = data
 		case "nested":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("nested"))
-			data, err := ec.unmarshalOMapNestedInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested(ctx, v)
+			data, err := ec.unmarshalOMapNestedInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -451,13 +451,13 @@ func (ec *executionContext) _MapStringInterfaceType(ctx context.Context, sel ast
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) unmarshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, v any) (CustomScalar, error) {
+func (ec *executionContext) unmarshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, v any) (CustomScalar, error) {
 	var res CustomScalar
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNCustomScalar2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v CustomScalar) graphql.Marshaler {
+func (ec *executionContext) marshalNCustomScalar2githubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v CustomScalar) graphql.Marshaler {
 	return v
 }
 
@@ -466,7 +466,7 @@ func (ec *executionContext) unmarshalNMapNestedMapSliceInput2map(ctx context.Con
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, v any) (*CustomScalar, error) {
+func (ec *executionContext) unmarshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, v any) (*CustomScalar, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -475,21 +475,21 @@ func (ec *executionContext) unmarshalOCustomScalar2ᚖgithubᚗcomᚋ99designs�
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOCustomScalar2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v *CustomScalar) graphql.Marshaler {
+func (ec *executionContext) marshalOCustomScalar2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐCustomScalar(ctx context.Context, sel ast.SelectionSet, v *CustomScalar) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return v
 }
 
-func (ec *executionContext) marshalOMapNested2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested(ctx context.Context, sel ast.SelectionSet, v *MapNested) graphql.Marshaler {
+func (ec *executionContext) marshalOMapNested2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested(ctx context.Context, sel ast.SelectionSet, v *MapNested) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._MapNested(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOMapNestedInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested(ctx context.Context, v any) (*MapNested, error) {
+func (ec *executionContext) unmarshalOMapNestedInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐMapNested(ctx context.Context, v any) (*MapNested, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -538,7 +538,7 @@ func (ec *executionContext) marshalOMapStringInterfaceType2map(ctx context.Conte
 	return ec._MapStringInterfaceType(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalONestedMapInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐNestedMapInput(ctx context.Context, v any) (*NestedMapInput, error) {
+func (ec *executionContext) unmarshalONestedMapInput2ᚖgithubᚗcomᚋspiffdevᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐNestedMapInput(ctx context.Context, v any) (*NestedMapInput, error) {
 	if v == nil {
 		return nil, nil
 	}
