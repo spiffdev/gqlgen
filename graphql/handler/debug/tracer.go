@@ -2,12 +2,12 @@ package debug
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"io"
 	"os"
 	"strings"
 
+	"github.com/bytedance/sonic"
 	"github.com/logrusorgru/aurora/v4"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
@@ -40,7 +40,7 @@ func (a *Tracer) Validate(schema graphql.ExecutableSchema) error {
 }
 
 func stringify(value any) string {
-	valueJson, err := json.MarshalIndent(value, "  ", "  ")
+	valueJson, err := sonic.ConfigFastest.MarshalIndent(value, "  ", "  ")
 	if err == nil {
 		return string(valueJson)
 	}

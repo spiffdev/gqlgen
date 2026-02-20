@@ -3,12 +3,12 @@ package testexecutor
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"time"
 
+	"github.com/bytedance/sonic"
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 
@@ -26,7 +26,7 @@ func (mr *MockResponse) UnmarshalGQL(v any) error {
 
 func (mr *MockResponse) MarshalGQL(w io.Writer) {
 	buf := new(bytes.Buffer)
-	err := json.NewEncoder(buf).Encode(mr)
+	err := sonic.ConfigFastest.NewEncoder(buf).Encode(mr)
 	if err != nil {
 		panic(err)
 	}
