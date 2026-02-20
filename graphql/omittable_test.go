@@ -16,7 +16,7 @@ func TestOmittable_UnmarshalJSON(t *testing.T) {
 		NullInt       Omittable[int]
 	}
 
-	err := sonic.Unmarshal([]byte(`
+	err := sonic.ConfigFastest.Unmarshal([]byte(`
 	{
 		"String": "simple string",
 		"StringPointer": "string pointer",

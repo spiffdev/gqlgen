@@ -1,14 +1,15 @@
 package graphql
 
 import (
-	"encoding/json"
 	"fmt"
 	"io"
+
+	"github.com/bytedance/sonic"
 )
 
 func MarshalMap(val map[string]any) Marshaler {
 	return WriterFunc(func(w io.Writer) {
-		err := json.NewEncoder(w).Encode(val)
+		err := sonic.ConfigFastest.NewEncoder(w).Encode(val)
 		if err != nil {
 			panic(err)
 		}

@@ -64,11 +64,11 @@ func (o Omittable[T]) MarshalJSON() ([]byte, error) {
 		value = zero
 	}
 
-	return sonic.Marshal(value)
+	return sonic.ConfigFastest.Marshal(value)
 }
 
 func (o *Omittable[T]) UnmarshalJSON(bytes []byte) error {
-	err := sonic.Unmarshal(bytes, &o.value)
+	err := sonic.ConfigFastest.Unmarshal(bytes, &o.value)
 	if err != nil {
 		return err
 	}
@@ -89,7 +89,7 @@ func (o Omittable[T]) MarshalGQL(w io.Writer) {
 	case ContextMarshaler:
 		_ = marshaler.MarshalGQLContext(context.Background(), w)
 	default:
-		b, _ := sonic.Marshal(value)
+		b, _ := sonic.ConfigFastest.Marshal(value)
 		w.Write(b)
 	}
 }
@@ -107,7 +107,7 @@ func (o *Omittable[T]) UnmarshalGQL(bytes []byte) error {
 		}
 		o.set = true
 	default:
-		if err := sonic.Unmarshal(bytes, &o.value); err != nil {
+		if err := sonic.ConfigFastest.Unmarshal(bytes, &o.value); err != nil {
 			return err
 		}
 		o.set = true
@@ -128,7 +128,7 @@ func (o Omittable[T]) MarshalGQLContext(ctx context.Context, w io.Writer) {
 	case Marshaler:
 		marshaler.MarshalGQL(w)
 	default:
-		b, _ := sonic.Marshal(value)
+		b, _ := sonic.ConfigFastest.Marshal(value)
 		w.Write(b)
 	}
 }
@@ -146,7 +146,7 @@ func (o *Omittable[T]) UnmarshalGQLContext(ctx context.Context, bytes []byte) er
 		}
 		o.set = true
 	default:
-		if err := sonic.Unmarshal(bytes, &o.value); err != nil {
+		if err := sonic.ConfigFastest.Unmarshal(bytes, &o.value); err != nil {
 			return err
 		}
 		o.set = true

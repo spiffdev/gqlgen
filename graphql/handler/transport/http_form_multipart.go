@@ -1,12 +1,12 @@
 package transport
 
 import (
-	"encoding/json"
 	"io"
 	"mime"
 	"net/http"
 	"os"
 
+	"github.com/bytedance/sonic"
 	"github.com/spiffdev/gqlgen/graphql"
 )
 
@@ -98,7 +98,7 @@ func (f MultipartForm) Do(w http.ResponseWriter, r *http.Request, exec graphql.G
 	}
 
 	uploadsMap := map[string][]string{}
-	if err = json.NewDecoder(part).Decode(&uploadsMap); err != nil {
+	if err = sonic.ConfigFastest.NewDecoder(part).Decode(&uploadsMap); err != nil {
 		w.WriteHeader(http.StatusUnprocessableEntity)
 		writeJsonError(w, "map form field could not be decoded")
 		return

@@ -680,6 +680,6 @@ type entityResolverError struct {
 
 func getEntityErrors(err error) ([]*entityResolverError, error) {
 	var errors []*entityResolverError
-	err = sonic.Unmarshal([]byte(err.Error()), &errors)
+	err = sonic.ConfigFastest.Unmarshal([]byte(err.Error()), &errors)
 	return errors, err
 }

@@ -392,7 +392,7 @@ func TestWebsocketInitFunc(t *testing.T) {
 			assert.Equal(t, connectionAckMsg, connAck.Type)
 
 			var payload map[string]any
-			err := sonic.Unmarshal(connAck.Payload, &payload)
+			err := sonic.ConfigFastest.Unmarshal(connAck.Payload, &payload)
 			if err != nil {
 				t.Fatal("Unexpected Error", err)
 			}

@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/bytedance/sonic"
 	"github.com/spiffdev/gqlgen/client"
 	"github.com/spiffdev/gqlgen/graphql/handler"
 	"github.com/spiffdev/gqlgen/graphql/handler/transport"
-	"github.com/bytedance/sonic"
 )
 
 func TestQuery(t *testing.T) {
@@ -134,7 +134,7 @@ func TestQuery(t *testing.T) {
 			}
 			}
 		`, &resp)
-		jsonResp, err := sonic.Marshal(resp)
+		jsonResp, err := sonic.ConfigFastest.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})
@@ -220,7 +220,7 @@ func TestMutation(t *testing.T) {
 			}
 		}`, &resp)
 
-		jsonResp, err := sonic.Marshal(resp)
+		jsonResp, err := sonic.ConfigFastest.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})
@@ -298,7 +298,7 @@ func TestSubscription(t *testing.T) {
 		err := sub.Next(&resp)
 		require.NoError(t, err)
 
-		jsonResp, err := sonic.Marshal(resp)
+		jsonResp, err := sonic.ConfigFastest.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})

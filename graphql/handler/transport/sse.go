@@ -157,7 +157,7 @@ func (c *sseConnection) flush() {
 }
 
 func writeJsonWithSSE(w io.Writer, response *graphql.Response) {
-	b, err := sonic.Marshal(response)
+	b, err := sonic.ConfigFastest.Marshal(response)
 	if err != nil {
 		panic(err)
 	}

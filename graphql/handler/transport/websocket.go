@@ -194,7 +194,7 @@ func (c *wsConnection) init() bool {
 	case initMessageType:
 		if len(m.payload) > 0 {
 			c.initPayload = make(InitPayload)
-			err := sonic.Unmarshal(m.payload, &c.initPayload)
+			err := sonic.ConfigFastest.Unmarshal(m.payload, &c.initPayload)
 			if err != nil {
 				return false
 			}
@@ -213,7 +213,7 @@ func (c *wsConnection) init() bool {
 		}
 
 		if initAckPayload != nil {
-			initJsonAckPayload, err := sonic.Marshal(*initAckPayload)
+			initJsonAckPayload, err := sonic.ConfigFastest.Marshal(*initAckPayload)
 			if err != nil {
 				panic(err)
 			}
@@ -462,7 +462,7 @@ func (c *wsConnection) subscribe(start time.Time, msg *message) {
 }
 
 func (c *wsConnection) sendResponse(id string, response *graphql.Response) {
-	b, err := sonic.Marshal(response)
+	b, err := sonic.ConfigFastest.Marshal(response)
 	if err != nil {
 		panic(err)
 	}
@@ -482,7 +482,7 @@ func (c *wsConnection) sendError(id string, errors ...*gqlerror.Error) {
 	for i, err := range errors {
 		errs[i] = err
 	}
-	b, err := sonic.Marshal(errs)
+	b, err := sonic.ConfigFastest.Marshal(errs)
 	if err != nil {
 		panic(err)
 	}
@@ -490,7 +490,7 @@ func (c *wsConnection) sendError(id string, errors ...*gqlerror.Error) {
 }
 
 func (c *wsConnection) sendConnectionError(format string, args ...any) {
-	b, err := sonic.Marshal(&gqlerror.Error{Message: fmt.Sprintf(format, args...)})
+	b, err := sonic.ConfigFastest.Marshal(&gqlerror.Error{Message: fmt.Sprintf(format, args...)})
 	if err != nil {
 		panic(err)
 	}

@@ -10,6 +10,8 @@ import (
 	"mime/multipart"
 	"net/http"
 	"net/http/httptest"
+
+	"github.com/bytedance/sonic"
 )
 
 type IncrementalHandler struct {
@@ -186,7 +188,7 @@ func (p *Client) IncrementalHTTP(
 			} else {
 				data = IncrementalResponse{}
 			}
-			if err = json.NewDecoder(next.Part).Decode(&data); err != nil {
+			if err = sonic.ConfigFastest.NewDecoder(next.Part).Decode(&data); err != nil {
 				return err
 			}
 

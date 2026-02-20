@@ -75,7 +75,7 @@ func TestOmittableIsZeroTrue_MarshalJSONGo124(t *testing.T) {
 
 	for _, tc := range testCases {
 		t.Run(tc.name, func(t *testing.T) {
-			data, err := sonic.Marshal(tc.input)
+			data, err := sonic.ConfigFastest.Marshal(tc.input)
 			require.NoError(t, err)
 			assert.Equal(t, tc.expectedJSON, string(data))
 		})
@@ -188,7 +188,7 @@ func TestOmittableIsZeroFalse_MarshalJSONGo124(t *testing.T) {
 
 	for _, tc := range testCases {
 		t.Run(tc.name, func(t *testing.T) {
-			data, err := sonic.Marshal(tc.input)
+			data, err := sonic.ConfigFastest.Marshal(tc.input)
 			require.NoError(t, err)
 			assert.Equal(t, tc.expectedJSON, string(data))
 		})

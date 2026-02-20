@@ -1,12 +1,12 @@
 package transport
 
 import (
-	"encoding/json"
 	"io"
 	"net/http"
 	"net/url"
 	"strings"
 
+	"github.com/bytedance/sonic"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
@@ -104,7 +104,7 @@ func (h GET) Do(w http.ResponseWriter, r *http.Request, exec graphql.GraphExecut
 }
 
 func jsonDecode(r io.Reader, val any) error {
-	dec := json.NewDecoder(r)
+	dec := sonic.ConfigFastest.NewDecoder(r)
 	dec.UseNumber()
 	return dec.Decode(val)
 }
