@@ -2,11 +2,11 @@
 package federation
 
 import (
-	"encoding/json"
 	"strconv"
 	"strings"
 	"testing"
 
+	"github.com/bytedance/sonic"
 	"github.com/stretchr/testify/require"
 
 	"github.com/99designs/gqlgen/client"
@@ -680,6 +680,6 @@ type entityResolverError struct {
 
 func getEntityErrors(err error) ([]*entityResolverError, error) {
 	var errors []*entityResolverError
-	err = json.Unmarshal([]byte(err.Error()), &errors)
+	err = sonic.Unmarshal([]byte(err.Error()), &errors)
 	return errors, err
 }

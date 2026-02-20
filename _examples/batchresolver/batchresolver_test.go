@@ -1,7 +1,6 @@
 package batchresolver
 
 import (
-	"encoding/json"
 	"fmt"
 	"sort"
 	"testing"
@@ -11,6 +10,8 @@ import (
 	"github.com/99designs/gqlgen/client"
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/handler/transport"
+
+	"github.com/bytedance/sonic"
 )
 
 type gqlError struct {
@@ -26,7 +27,7 @@ func newTestClient(r *Resolver) *client.Client {
 
 func marshalJSON(t *testing.T, v any) string {
 	t.Helper()
-	blob, err := json.Marshal(v)
+	blob, err := sonic.Marshal(v)
 	require.NoError(t, err)
 	return string(blob)
 }
@@ -45,18 +46,18 @@ func normalizeErrorJSON(t *testing.T, jsonStr string) string {
 		return ""
 	}
 	var list []gqlError
-	require.NoError(t, json.Unmarshal([]byte(jsonStr), &list))
+	require.NoError(t, sonic.Unmarshal([]byte(jsonStr), &list))
 	sort.Slice(list, func(i, j int) bool {
 		return errorKey(t, list[i]) < errorKey(t, list[j])
 	})
-	blob, err := json.Marshal(list)
+	blob, err := sonic.Marshal(list)
 	require.NoError(t, err)
 	return string(blob)
 }
 
 func errorKey(t *testing.T, err gqlError) string {
 	t.Helper()
-	blob, marshalErr := json.Marshal(err.Path)
+	blob, marshalErr := sonic.Marshal(err.Path)
 	require.NoError(t, marshalErr)
 	return err.Message + "|" + string(blob)
 }

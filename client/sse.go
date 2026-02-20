@@ -8,6 +8,8 @@ import (
 	"net/http/httptest"
 	"net/textproto"
 	"strings"
+
+	"github.com/bytedance/sonic"
 )
 
 type SSE struct {
@@ -84,7 +86,7 @@ func (p *Client) SSE(ctx context.Context, query string, options ...Option) *SSE 
 					}
 				case "data":
 					var respDataRaw SSEResponse
-					if err = json.Unmarshal([]byte(kv[1]), &respDataRaw); err != nil {
+					if err = sonic.Unmarshal([]byte(kv[1]), &respDataRaw); err != nil {
 						return fmt.Errorf("decode: %w", err)
 					}
 

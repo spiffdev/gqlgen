@@ -17,6 +17,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/bytedance/sonic"
 )
 
 type (
@@ -193,7 +194,7 @@ func (c *wsConnection) init() bool {
 	case initMessageType:
 		if len(m.payload) > 0 {
 			c.initPayload = make(InitPayload)
-			err := json.Unmarshal(m.payload, &c.initPayload)
+			err := sonic.Unmarshal(m.payload, &c.initPayload)
 			if err != nil {
 				return false
 			}
@@ -212,7 +213,7 @@ func (c *wsConnection) init() bool {
 		}
 
 		if initAckPayload != nil {
-			initJsonAckPayload, err := json.Marshal(*initAckPayload)
+			initJsonAckPayload, err := sonic.Marshal(*initAckPayload)
 			if err != nil {
 				panic(err)
 			}
@@ -461,7 +462,7 @@ func (c *wsConnection) subscribe(start time.Time, msg *message) {
 }
 
 func (c *wsConnection) sendResponse(id string, response *graphql.Response) {
-	b, err := json.Marshal(response)
+	b, err := sonic.Marshal(response)
 	if err != nil {
 		panic(err)
 	}
@@ -481,7 +482,7 @@ func (c *wsConnection) sendError(id string, errors ...*gqlerror.Error) {
 	for i, err := range errors {
 		errs[i] = err
 	}
-	b, err := json.Marshal(errs)
+	b, err := sonic.Marshal(errs)
 	if err != nil {
 		panic(err)
 	}
@@ -489,7 +490,7 @@ func (c *wsConnection) sendError(id string, errors ...*gqlerror.Error) {
 }
 
 func (c *wsConnection) sendConnectionError(format string, args ...any) {
-	b, err := json.Marshal(&gqlerror.Error{Message: fmt.Sprintf(format, args...)})
+	b, err := sonic.Marshal(&gqlerror.Error{Message: fmt.Sprintf(format, args...)})
 	if err != nil {
 		panic(err)
 	}

@@ -1,10 +1,11 @@
 package singlefile
 
 import (
-	"encoding/json"
 	"errors"
 	"io"
 	"regexp"
+
+	"github.com/bytedance/sonic"
 )
 
 var re = regexp.MustCompile(
@@ -26,6 +27,6 @@ func (value *Email) UnmarshalGQL(v any) error {
 }
 
 func (value Email) MarshalGQL(w io.Writer) {
-	output, _ := json.Marshal(string(value))
+	output, _ := sonic.Marshal(string(value))
 	w.Write(output)
 }

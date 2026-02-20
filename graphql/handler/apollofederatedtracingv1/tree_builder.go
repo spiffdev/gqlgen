@@ -2,7 +2,6 @@ package apollofederatedtracingv1
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
 	"sync"
 	"time"
@@ -13,6 +12,7 @@ import (
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/handler/apollofederatedtracingv1/generated"
 	tracing_logger "github.com/99designs/gqlgen/graphql/handler/apollofederatedtracingv1/logger"
+	"github.com/bytedance/sonic"
 )
 
 type TreeBuilder struct {
@@ -236,7 +236,7 @@ func (tb *TreeBuilder) addProtobufError(
 		}
 	}
 
-	gqlJson, err := json.Marshal(gqlError)
+	gqlJson, err := sonic.Marshal(gqlError)
 	if err != nil {
 		tb.logger.Println(err)
 		tb.mu.Unlock()

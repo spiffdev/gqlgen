@@ -10,6 +10,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bytedance/sonic"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -391,7 +392,7 @@ func TestWebsocketInitFunc(t *testing.T) {
 			assert.Equal(t, connectionAckMsg, connAck.Type)
 
 			var payload map[string]any
-			err := json.Unmarshal(connAck.Payload, &payload)
+			err := sonic.Unmarshal(connAck.Payload, &payload)
 			if err != nil {
 				t.Fatal("Unexpected Error", err)
 			}

@@ -109,7 +109,7 @@ func (t EnumTyped) MarshalJSON() ([]byte, error) {
 func (t *EnumTyped) UnmarshalJSON(b []byte) (err error) {
 	var s string
 
-	if err = json.Unmarshal(b, &s); err != nil {
+	if err = sonic.Unmarshal(b, &s); err != nil {
 		return err
 	}
 
@@ -125,4 +125,3 @@ func (t *EnumTyped) UnmarshalJSON(b []byte) (err error) {
 	return nil
 }
 ```
-

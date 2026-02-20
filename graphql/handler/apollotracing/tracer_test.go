@@ -1,7 +1,6 @@
 package apollotracing_test
 
 import (
-	"encoding/json"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -9,6 +8,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bytedance/sonic"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/vektah/gqlparser/v2/ast"
@@ -49,7 +49,7 @@ func TestApolloTracing(t *testing.T) {
 			Tracing apollotracing.TracingExtension `json:"tracing"`
 		} `json:"extensions"`
 	}
-	require.NoError(t, json.Unmarshal(resp.Body.Bytes(), &respData))
+	require.NoError(t, sonic.Unmarshal(resp.Body.Bytes(), &respData))
 
 	tracing := &respData.Extensions.Tracing
 
@@ -100,7 +100,7 @@ func TestApolloTracing_withFail(t *testing.T) {
 	var respData struct {
 		Errors gqlerror.List
 	}
-	require.NoError(t, json.Unmarshal(b, &respData))
+	require.NoError(t, sonic.Unmarshal(b, &respData))
 	require.Len(t, respData.Errors, 1)
 	require.Equal(t, "PersistedQueryNotFound", respData.Errors[0].Message)
 }

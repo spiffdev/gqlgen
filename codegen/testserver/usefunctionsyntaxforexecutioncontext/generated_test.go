@@ -5,7 +5,6 @@ package usefunctionsyntaxforexecutioncontext
 
 import (
 	"context"
-	"encoding/json"
 	"testing"
 	"time"
 
@@ -14,6 +13,7 @@ import (
 	"github.com/99designs/gqlgen/client"
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/bytedance/sonic"
 )
 
 func TestQuery(t *testing.T) {
@@ -134,7 +134,7 @@ func TestQuery(t *testing.T) {
 			}
 			}
 		`, &resp)
-		jsonResp, err := json.Marshal(resp)
+		jsonResp, err := sonic.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})
@@ -220,7 +220,7 @@ func TestMutation(t *testing.T) {
 			}
 		}`, &resp)
 
-		jsonResp, err := json.Marshal(resp)
+		jsonResp, err := sonic.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})
@@ -298,7 +298,7 @@ func TestSubscription(t *testing.T) {
 		err := sub.Next(&resp)
 		require.NoError(t, err)
 
-		jsonResp, err := json.Marshal(resp)
+		jsonResp, err := sonic.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})

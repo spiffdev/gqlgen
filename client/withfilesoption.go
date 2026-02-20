@@ -2,7 +2,6 @@ package client
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"mime/multipart"
@@ -10,6 +9,8 @@ import (
 	"net/textproto"
 	"os"
 	"strings"
+
+	"github.com/bytedance/sonic"
 )
 
 type fileFormDataMap struct {
@@ -56,7 +57,7 @@ func WithFiles() Option {
 		// Content-Disposition: form-data; name="operations"
 		//
 		// {"query":"mutation ($input: Input!) {}","variables":{"input":{"file":{}}}
-		requestBody, _ := json.Marshal(bd)
+		requestBody, _ := sonic.Marshal(bd)
 		_ = bodyWriter.WriteField("operations", string(requestBody))
 
 		// --b7955bd2e1d17b67ac157b9e9ddb6238888caefc6f3541920a1debad284d

@@ -1,10 +1,11 @@
 package playground
 
 import (
-	"encoding/json"
 	"fmt"
 	"html/template"
 	"net/http"
+
+	"github.com/bytedance/sonic"
 )
 
 const (
@@ -68,7 +69,7 @@ func ApolloSandboxHandler(title, endpoint string, opts ...ApolloSandboxOption) h
 		opt(options)
 	}
 
-	optionsBytes, err := json.Marshal(options.ApolloSandboxOption)
+	optionsBytes, err := sonic.Marshal(options.ApolloSandboxOption)
 	if err != nil {
 		panic(fmt.Errorf("failed to marshal apollo sandbox options: %w", err))
 	}

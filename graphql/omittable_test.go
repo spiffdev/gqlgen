@@ -1,9 +1,9 @@
 package graphql
 
 import (
-	"encoding/json"
 	"testing"
 
+	"github.com/bytedance/sonic"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -16,7 +16,7 @@ func TestOmittable_UnmarshalJSON(t *testing.T) {
 		NullInt       Omittable[int]
 	}
 
-	err := json.Unmarshal([]byte(`
+	err := sonic.Unmarshal([]byte(`
 	{
 		"String": "simple string",
 		"StringPointer": "string pointer",

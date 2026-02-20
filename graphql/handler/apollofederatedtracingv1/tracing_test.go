@@ -3,7 +3,6 @@ package apollofederatedtracingv1_test
 import (
 	"context"
 	"encoding/base64"
-	"encoding/json"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -11,6 +10,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bytedance/sonic"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/vektah/gqlparser/v2/gqlerror"
@@ -44,7 +44,7 @@ func TestApolloTracing(t *testing.T) {
 			FTV1 string `json:"ftv1"`
 		} `json:"extensions"`
 	}
-	require.NoError(t, json.Unmarshal(resp.Body.Bytes(), &respData))
+	require.NoError(t, sonic.Unmarshal(resp.Body.Bytes(), &respData))
 
 	tracing := respData.Extensions.FTV1
 	pbuf, err := base64.StdEncoding.DecodeString(tracing)
@@ -78,7 +78,7 @@ func TestApolloTracing_Concurrent(t *testing.T) {
 				} `json:"extensions"`
 			}
 
-			err := json.Unmarshal(resp.Body.Bytes(), &respData)
+			err := sonic.Unmarshal(resp.Body.Bytes(), &respData)
 			if !assert.NoError(t, err) {
 				return
 			}
@@ -115,7 +115,7 @@ func TestApolloTracing_withFail(t *testing.T) {
 	var respData struct {
 		Errors gqlerror.List
 	}
-	require.NoError(t, json.Unmarshal(b, &respData))
+	require.NoError(t, sonic.Unmarshal(b, &respData))
 	require.Len(t, respData.Errors, 1)
 	require.Equal(t, "PersistedQueryNotFound", respData.Errors[0].Message)
 }
@@ -138,7 +138,7 @@ func TestApolloTracing_withMissingOp(t *testing.T) {
 	var respData struct {
 		Errors gqlerror.List
 	}
-	require.NoError(t, json.Unmarshal(b, &respData))
+	require.NoError(t, sonic.Unmarshal(b, &respData))
 	require.Len(t, respData.Errors, 1)
 	require.Equal(t, "no operation provided", respData.Errors[0].Message)
 }

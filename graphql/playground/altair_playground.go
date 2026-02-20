@@ -1,9 +1,10 @@
 package playground
 
 import (
-	"encoding/json"
 	"html/template"
 	"net/http"
+
+	"github.com/bytedance/sonic"
 )
 
 var altairPage = template.Must(template.New("altair").Parse(`<!doctype html>
@@ -67,7 +68,7 @@ var altairPage = template.Must(template.New("altair").Parse(`<!doctype html>
 
 // AltairHandler responsible for setting up the altair playground
 func AltairHandler(title, endpoint string, options map[string]any) http.HandlerFunc {
-	jsonOptions, err := json.Marshal(options)
+	jsonOptions, err := sonic.Marshal(options)
 	if err != nil {
 		jsonOptions = []byte("{}")
 	}

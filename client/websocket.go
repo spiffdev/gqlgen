@@ -9,6 +9,7 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/bytedance/sonic"
 	"github.com/gorilla/websocket"
 )
 
@@ -81,7 +82,7 @@ func (p *Client) WebsocketWithPayload(
 
 	initMessage := operationMessage{Type: connectionInitMsg}
 	if initPayload != nil {
-		initMessage.Payload, err = json.Marshal(initPayload)
+		initMessage.Payload, err = sonic.Marshal(initPayload)
 		if err != nil {
 			return errorSubscription(fmt.Errorf("parse payload: %w", err))
 		}
@@ -140,7 +141,7 @@ func (p *Client) WebsocketWithPayload(
 				}
 
 				var respDataRaw Response
-				err = json.Unmarshal(op.Payload, &respDataRaw)
+				err = sonic.Unmarshal(op.Payload, &respDataRaw)
 				if err != nil {
 					return fmt.Errorf("decode: %w", err)
 				}

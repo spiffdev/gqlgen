@@ -2,7 +2,6 @@ package transport
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"io"
 	"log"
@@ -15,6 +14,7 @@ import (
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/bytedance/sonic"
 )
 
 type (
@@ -157,7 +157,7 @@ func (c *sseConnection) flush() {
 }
 
 func writeJsonWithSSE(w io.Writer, response *graphql.Response) {
-	b, err := json.Marshal(response)
+	b, err := sonic.Marshal(response)
 	if err != nil {
 		panic(err)
 	}

@@ -1,8 +1,9 @@
 package model
 
 import (
-	"encoding/json"
 	"fmt"
+
+	"github.com/bytedance/sonic"
 )
 
 // this file is provided as an example for int-based enums
@@ -39,7 +40,7 @@ func (t IntTyped) MarshalJSON() ([]byte, error) {
 func (t *IntTyped) UnmarshalJSON(b []byte) (err error) {
 	var s string
 
-	if err = json.Unmarshal(b, &s); err != nil {
+	if err = sonic.Unmarshal(b, &s); err != nil {
 		return err
 	}
 
