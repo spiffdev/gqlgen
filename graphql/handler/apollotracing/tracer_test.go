@@ -49,7 +49,7 @@ func TestApolloTracing(t *testing.T) {
 			Tracing apollotracing.TracingExtension `json:"tracing"`
 		} `json:"extensions"`
 	}
-	require.NoError(t, sonic.ConfigDefault.Unmarshal(resp.Body.Bytes(), &respData))
+	require.NoError(t, sonic.ConfigStd.Unmarshal(resp.Body.Bytes(), &respData))
 
 	tracing := &respData.Extensions.Tracing
 
@@ -100,7 +100,7 @@ func TestApolloTracing_withFail(t *testing.T) {
 	var respData struct {
 		Errors gqlerror.List
 	}
-	require.NoError(t, sonic.ConfigDefault.Unmarshal(b, &respData))
+	require.NoError(t, sonic.ConfigStd.Unmarshal(b, &respData))
 	require.Len(t, respData.Errors, 1)
 	require.Equal(t, "PersistedQueryNotFound", respData.Errors[0].Message)
 }

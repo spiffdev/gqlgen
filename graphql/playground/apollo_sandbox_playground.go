@@ -69,7 +69,7 @@ func ApolloSandboxHandler(title, endpoint string, opts ...ApolloSandboxOption) h
 		opt(options)
 	}
 
-	optionsBytes, err := sonic.ConfigDefault.Marshal(options.ApolloSandboxOption)
+	optionsBytes, err := sonic.ConfigStd.Marshal(options.ApolloSandboxOption)
 	if err != nil {
 		panic(fmt.Errorf("failed to marshal apollo sandbox options: %w", err))
 	}

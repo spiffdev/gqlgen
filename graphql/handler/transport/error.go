@@ -15,7 +15,7 @@ import (
 // json error response
 func SendError(w http.ResponseWriter, code int, errors ...*gqlerror.Error) {
 	w.WriteHeader(code)
-	b, err := sonic.ConfigDefault.Marshal(&graphql.Response{Errors: errors})
+	b, err := sonic.ConfigStd.Marshal(&graphql.Response{Errors: errors})
 	if err != nil {
 		panic(err)
 	}

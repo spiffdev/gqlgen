@@ -236,7 +236,7 @@ func (tb *TreeBuilder) addProtobufError(
 		}
 	}
 
-	gqlJson, err := sonic.ConfigDefault.Marshal(gqlError)
+	gqlJson, err := sonic.ConfigStd.Marshal(gqlError)
 	if err != nil {
 		tb.logger.Println(err)
 		tb.mu.Unlock()

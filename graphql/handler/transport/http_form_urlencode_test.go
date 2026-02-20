@@ -105,7 +105,7 @@ func TestUrlEncodedForm(t *testing.T) {
 		assert.Equal(t, "application/json", resp.Header().Get("Content-Type"))
 		assert.JSONEq(
 			t,
-			`{"errors":[{"message":"could not cleanup body: json: cannot unmarshal object into Go struct field RawParams.query of type string"}],"data":null}`,
+			`{"errors":[{"message":"could not cleanup body: Mismatch type string with value object \"at index 9: mismatched type with value\\n\\n\\t{\\\"query\\\":{\\\"wrong\\\": \\\"format\\\"}}\\n\\t.........^...................\\n\""}],"data":null}`,
 			resp.Body.String(),
 		)
 	})

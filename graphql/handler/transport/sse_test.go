@@ -86,7 +86,7 @@ func TestSSE(t *testing.T) {
 		assert.Equal(t, 400, w.Code, "Request return wrong status -> %d", w.Code)
 		assert.JSONEq(
 			t,
-			`{"errors":[{"message":"json request body could not be decoded: invalid character 'o' in literal null (expecting 'u') body:notjson"}],"data":null}`,
+			`{"errors":[{"message":"json request body could not be decoded: \"Syntax error at index 1: invalid char\\n\\n\\tnotj\\n\\t.^..\\n\" body:notjson"}],"data":null}`,
 			w.Body.String(),
 		)
 	})

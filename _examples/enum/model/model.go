@@ -40,7 +40,7 @@ func (t IntTyped) MarshalJSON() ([]byte, error) {
 func (t *IntTyped) UnmarshalJSON(b []byte) (err error) {
 	var s string
 
-	if err = sonic.ConfigDefault.Unmarshal(b, &s); err != nil {
+	if err = sonic.ConfigStd.Unmarshal(b, &s); err != nil {
 		return err
 	}
 

@@ -86,7 +86,7 @@ func (p *Client) SSE(ctx context.Context, query string, options ...Option) *SSE 
 					}
 				case "data":
 					var respDataRaw SSEResponse
-					if err = sonic.ConfigDefault.Unmarshal([]byte(kv[1]), &respDataRaw); err != nil {
+					if err = sonic.ConfigStd.Unmarshal([]byte(kv[1]), &respDataRaw); err != nil {
 						return fmt.Errorf("decode: %w", err)
 					}
 

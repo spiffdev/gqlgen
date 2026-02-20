@@ -8,7 +8,7 @@ import (
 
 func MarshalAny(v any) Marshaler {
 	return WriterFunc(func(w io.Writer) {
-		err := sonic.ConfigDefault.NewEncoder(w).Encode(v)
+		err := sonic.ConfigStd.NewEncoder(w).Encode(v)
 		if err != nil {
 			panic(err)
 		}

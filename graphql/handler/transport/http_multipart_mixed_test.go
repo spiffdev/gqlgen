@@ -54,7 +54,7 @@ func TestMultipartMixed(t *testing.T) {
 		assert.Equal(t, "application/json", resp.Header().Get("Content-Type"))
 		assert.JSONEq(
 			t,
-			`{"errors":[{"message":"json request body could not be decoded: invalid character 'o' in literal null (expecting 'u') body:notjson"}],"data":null}`,
+			`{"errors":[{"message":"json request body could not be decoded: \"Syntax error at index 1: invalid char\\n\\n\\tnotj\\n\\t.^..\\n\" body:notjson"}],"data":null}`,
 			resp.Body.String(),
 		)
 	})

@@ -134,7 +134,7 @@ func TestQuery(t *testing.T) {
 			}
 			}
 		`, &resp)
-		jsonResp, err := sonic.ConfigDefault.Marshal(resp)
+		jsonResp, err := sonic.ConfigStd.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})
@@ -220,7 +220,7 @@ func TestMutation(t *testing.T) {
 			}
 		}`, &resp)
 
-		jsonResp, err := sonic.ConfigDefault.Marshal(resp)
+		jsonResp, err := sonic.ConfigStd.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})
@@ -298,7 +298,7 @@ func TestSubscription(t *testing.T) {
 		err := sub.Next(&resp)
 		require.NoError(t, err)
 
-		jsonResp, err := sonic.ConfigDefault.Marshal(resp)
+		jsonResp, err := sonic.ConfigStd.Marshal(resp)
 		require.NoError(t, err)
 		require.JSONEq(t, expectedJsonResp, string(jsonResp))
 	})

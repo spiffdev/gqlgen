@@ -9,7 +9,7 @@ import (
 
 func MarshalMap(val map[string]any) Marshaler {
 	return WriterFunc(func(w io.Writer) {
-		err := sonic.ConfigDefault.NewEncoder(w).Encode(val)
+		err := sonic.ConfigStd.NewEncoder(w).Encode(val)
 		if err != nil {
 			panic(err)
 		}
