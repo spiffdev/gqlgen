@@ -27,7 +27,7 @@ func newTestClient(r *Resolver) *client.Client {
 
 func marshalJSON(t *testing.T, v any) string {
 	t.Helper()
-	blob, err := sonic.ConfigFastest.Marshal(v)
+	blob, err := sonic.ConfigDefault.Marshal(v)
 	require.NoError(t, err)
 	return string(blob)
 }
@@ -46,18 +46,18 @@ func normalizeErrorJSON(t *testing.T, jsonStr string) string {
 		return ""
 	}
 	var list []gqlError
-	require.NoError(t, sonic.ConfigFastest.Unmarshal([]byte(jsonStr), &list))
+	require.NoError(t, sonic.ConfigDefault.Unmarshal([]byte(jsonStr), &list))
 	sort.Slice(list, func(i, j int) bool {
 		return errorKey(t, list[i]) < errorKey(t, list[j])
 	})
-	blob, err := sonic.ConfigFastest.Marshal(list)
+	blob, err := sonic.ConfigDefault.Marshal(list)
 	require.NoError(t, err)
 	return string(blob)
 }
 
 func errorKey(t *testing.T, err gqlError) string {
 	t.Helper()
-	blob, marshalErr := sonic.ConfigFastest.Marshal(err.Path)
+	blob, marshalErr := sonic.ConfigDefault.Marshal(err.Path)
 	require.NoError(t, marshalErr)
 	return err.Message + "|" + string(blob)
 }

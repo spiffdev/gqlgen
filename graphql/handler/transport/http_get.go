@@ -104,7 +104,7 @@ func (h GET) Do(w http.ResponseWriter, r *http.Request, exec graphql.GraphExecut
 }
 
 func jsonDecode(r io.Reader, val any) error {
-	dec := sonic.ConfigFastest.NewDecoder(r)
+	dec := sonic.ConfigDefault.NewDecoder(r)
 	dec.UseNumber()
 	return dec.Decode(val)
 }

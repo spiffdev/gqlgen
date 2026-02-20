@@ -68,7 +68,7 @@ var altairPage = template.Must(template.New("altair").Parse(`<!doctype html>
 
 // AltairHandler responsible for setting up the altair playground
 func AltairHandler(title, endpoint string, options map[string]any) http.HandlerFunc {
-	jsonOptions, err := sonic.ConfigFastest.Marshal(options)
+	jsonOptions, err := sonic.ConfigDefault.Marshal(options)
 	if err != nil {
 		jsonOptions = []byte("{}")
 	}

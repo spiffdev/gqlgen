@@ -27,6 +27,6 @@ func (value *Email) UnmarshalGQL(v any) error {
 }
 
 func (value Email) MarshalGQL(w io.Writer) {
-	output, _ := sonic.ConfigFastest.Marshal(string(value))
+	output, _ := sonic.ConfigDefault.Marshal(string(value))
 	w.Write(output)
 }

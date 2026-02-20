@@ -149,7 +149,7 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			err := s.exec.PresentRecoveredError(r.Context(), err)
 			gqlErr, _ := err.(*gqlerror.Error)
 			resp := &graphql.Response{Errors: []*gqlerror.Error{gqlErr}}
-			b, _ := sonic.ConfigFastest.Marshal(resp)
+			b, _ := sonic.ConfigDefault.Marshal(resp)
 			w.WriteHeader(http.StatusUnprocessableEntity)
 			_, _ = w.Write(b)
 		}
@@ -168,7 +168,7 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 func sendError(w http.ResponseWriter, code int, errors ...*gqlerror.Error) {
 	w.WriteHeader(code)
-	b, err := sonic.ConfigFastest.Marshal(&graphql.Response{Errors: errors})
+	b, err := sonic.ConfigDefault.Marshal(&graphql.Response{Errors: errors})
 	if err != nil {
 		panic(err)
 	}

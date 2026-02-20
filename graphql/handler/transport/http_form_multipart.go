@@ -98,7 +98,7 @@ func (f MultipartForm) Do(w http.ResponseWriter, r *http.Request, exec graphql.G
 	}
 
 	uploadsMap := map[string][]string{}
-	if err = sonic.ConfigFastest.NewDecoder(part).Decode(&uploadsMap); err != nil {
+	if err = sonic.ConfigDefault.NewDecoder(part).Decode(&uploadsMap); err != nil {
 		w.WriteHeader(http.StatusUnprocessableEntity)
 		writeJsonError(w, "map form field could not be decoded")
 		return

@@ -11,7 +11,7 @@ import (
 )
 
 func writeJson(w io.Writer, response *graphql.Response) {
-	b, err := sonic.ConfigFastest.Marshal(response)
+	b, err := sonic.ConfigDefault.Marshal(response)
 	if err != nil {
 		panic(fmt.Errorf("unable to marshal %s: %w", string(response.Data), err))
 	}

@@ -82,7 +82,7 @@ func (p *Client) WebsocketWithPayload(
 
 	initMessage := operationMessage{Type: connectionInitMsg}
 	if initPayload != nil {
-		initMessage.Payload, err = sonic.ConfigFastest.Marshal(initPayload)
+		initMessage.Payload, err = sonic.ConfigDefault.Marshal(initPayload)
 		if err != nil {
 			return errorSubscription(fmt.Errorf("parse payload: %w", err))
 		}
@@ -141,7 +141,7 @@ func (p *Client) WebsocketWithPayload(
 				}
 
 				var respDataRaw Response
-				err = sonic.ConfigFastest.Unmarshal(op.Payload, &respDataRaw)
+				err = sonic.ConfigDefault.Unmarshal(op.Payload, &respDataRaw)
 				if err != nil {
 					return fmt.Errorf("decode: %w", err)
 				}
