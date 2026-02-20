@@ -8,7 +8,7 @@ import (
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql"
 )
 
 // GRAPHQL implements the application/graphql side of the HTTP transport

@@ -1,7 +1,7 @@
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
-github.com/99designs/gqlgen v0.17.66 h1:2/SRc+h3115fCOZeTtsqrB5R5gTGm+8qCAwcrZa+CXA=
-github.com/99designs/gqlgen v0.17.66/go.mod h1:gucrb5jK5pgCKzAGuOMMVU9C8PnReecHEHd2UxLQwCg=
+github.com/spiffdev/gqlgen v0.17.66 h1:2/SRc+h3115fCOZeTtsqrB5R5gTGm+8qCAwcrZa+CXA=
+github.com/spiffdev/gqlgen v0.17.66/go.mod h1:gucrb5jK5pgCKzAGuOMMVU9C8PnReecHEHd2UxLQwCg=
 github.com/PuerkitoBio/goquery v1.9.3 h1:mpJr/ikUA9/GNJB/DBZcGeFDXUtosHRyRrwh7KGdTG0=
 github.com/PuerkitoBio/goquery v1.9.3/go.mod h1:1ndLHPdTz+DyQPICCWYlYQMPl0oXZj0G6D4LCYA6u4U=
 github.com/agnivade/levenshtein v1.2.0 h1:U9L4IOT0Y3i0TIlUIDJ7rVUziKi/zPbrJGaFrtYH3SY=

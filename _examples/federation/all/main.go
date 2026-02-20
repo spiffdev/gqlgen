@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	accounts "github.com/99designs/gqlgen/_examples/federation/accounts/schema"
-	products "github.com/99designs/gqlgen/_examples/federation/products/schema"
-	reviews "github.com/99designs/gqlgen/_examples/federation/reviews/schema"
-	"github.com/99designs/gqlgen/_examples/federation/subgraphs"
+	accounts "github.com/spiffdev/gqlgen/_examples/federation/accounts/schema"
+	products "github.com/spiffdev/gqlgen/_examples/federation/products/schema"
+	reviews "github.com/spiffdev/gqlgen/_examples/federation/reviews/schema"
+	"github.com/spiffdev/gqlgen/_examples/federation/subgraphs"
 )
 
 func main() {

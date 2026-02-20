@@ -15,9 +15,9 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
 	"github.com/bytedance/sonic"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql/errcode"
 )
 
 type (

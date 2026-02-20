@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/client"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
 )
 
 // isNil checks if the given value is nil

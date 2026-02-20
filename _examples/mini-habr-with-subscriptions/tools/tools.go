@@ -1,6 +1,6 @@
 package tools
 
 import (
-	_ "github.com/99designs/gqlgen"
-	_ "github.com/99designs/gqlgen/graphql/introspection"
+	_ "github.com/spiffdev/gqlgen"
+	_ "github.com/spiffdev/gqlgen/graphql/introspection"
 )

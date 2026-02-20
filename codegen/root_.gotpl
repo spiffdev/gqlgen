@@ -11,7 +11,7 @@
 
 {{ reserveImport "github.com/vektah/gqlparser/v2" "gqlparser" }}
 {{ reserveImport "github.com/vektah/gqlparser/v2/ast" }}
-{{ reserveImport "github.com/99designs/gqlgen/graphql" }}
+{{ reserveImport "github.com/spiffdev/gqlgen/graphql" }}
 
 {{ $useFunctionSyntaxForExecutionContext := .Config.UseFunctionSyntaxForExecutionContext }}
 

@@ -11,12 +11,12 @@ import (
 	"github.com/vektah/gqlparser/v2/gqlerror"
 	"github.com/vektah/gqlparser/v2/validator/rules"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/executor"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/lru"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
 	"github.com/bytedance/sonic"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql/executor"
+	"github.com/spiffdev/gqlgen/graphql/handler/extension"
+	"github.com/spiffdev/gqlgen/graphql/handler/lru"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
 )
 
 type (

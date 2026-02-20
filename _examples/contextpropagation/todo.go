@@ -5,7 +5,7 @@ package contextpropagation
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql"
 )
 
 type ctxKey string

@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/99designs/gqlgen/_examples/todo"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/spiffdev/gqlgen/_examples/todo"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/graphql/playground"
 )
 
 func main() {

@@ -11,9 +11,9 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/spiffdev/gqlgen/codegen/config"
+	"github.com/spiffdev/gqlgen/codegen/templates"
+	"github.com/spiffdev/gqlgen/plugin"
 )
 
 //go:embed models.gotpl
@@ -213,7 +213,7 @@ func (m *Plugin) MutateConfig(cfg *config.Config) error {
 		cfg.Models.Add(it.Name, cfg.Model.ImportPath()+"."+templates.ToGoModelName(it.Name))
 	}
 	for _, it := range b.Scalars {
-		cfg.Models.Add(it, "github.com/99designs/gqlgen/graphql.String")
+		cfg.Models.Add(it, "github.com/spiffdev/gqlgen/graphql.String")
 	}
 
 	if len(b.Models) == 0 && len(b.Enums) == 0 && len(b.Interfaces) == 0 && len(b.Scalars) == 0 {
@@ -494,7 +494,7 @@ func (m *Plugin) generateField(
 		}
 
 		omittableType, err := binder.FindTypeFromName(
-			"github.com/99designs/gqlgen/graphql.Omittable",
+			"github.com/spiffdev/gqlgen/graphql.Omittable",
 		)
 		if err != nil {
 			return nil, err
@@ -744,7 +744,7 @@ func findAndHandleCyclicalRelationships(b *ModelBuild) {
 			}
 
 			// the field Type string will be in the form
-			// "github.com/99designs/gqlgen/codegen/testserver/followschema.LoopA"
+			// "github.com/spiffdev/gqlgen/codegen/testserver/followschema.LoopA"
 			// we only want the part after the last dot: "LoopA"
 			// this could lead to false positives, as we are only checking the name of the struct
 			// type, but these

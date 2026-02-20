@@ -1,26 +1,26 @@
 schema:
-  - "*.graphql"
+    - "*.graphql"
 skip_validation: true
 exec:
-  layout: follow-schema
-  dir: .
-  package: followschema
+    layout: follow-schema
+    dir: .
+    package: followschema
 model:
-  filename: models-gen.go
-  package: followschema
+    filename: models-gen.go
+    package: followschema
 resolver:
-  filename: resolver.go
-  package: followschema
-  type: Resolver
+    filename: resolver.go
+    package: followschema
+    type: Resolver
 
 autobind:
-  - "github.com/99designs/gqlgen/codegen/testserver"
-  - "github.com/99designs/gqlgen/codegen/testserver/followschema"
-  - "github.com/99designs/gqlgen/codegen/testserver/followschema/introspection"
-  - "github.com/99designs/gqlgen/codegen/testserver/followschema/invalid-packagename"
+    - "github.com/spiffdev/gqlgen/codegen/testserver"
+    - "github.com/spiffdev/gqlgen/codegen/testserver/followschema"
+    - "github.com/spiffdev/gqlgen/codegen/testserver/followschema/introspection"
+    - "github.com/spiffdev/gqlgen/codegen/testserver/followschema/invalid-packagename"
 
 models:
-  Email:
-    model: "github.com/99designs/gqlgen/codegen/testserver/followschema.Email"
-  StringFromContextFunction:
-    model: "github.com/99designs/gqlgen/codegen/testserver/followschema.StringFromContextFunction"
+    Email:
+        model: "github.com/spiffdev/gqlgen/codegen/testserver/followschema.Email"
+    StringFromContextFunction:
+        model: "github.com/spiffdev/gqlgen/codegen/testserver/followschema.StringFromContextFunction"

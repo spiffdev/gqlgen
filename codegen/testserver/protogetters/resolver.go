@@ -1,6 +1,6 @@
 package protogetters
 
-import "github.com/99designs/gqlgen/codegen/testserver/protogetters/models"
+import "github.com/spiffdev/gqlgen/codegen/testserver/protogetters/models"
 
 // This file will not be regenerated automatically.
 //

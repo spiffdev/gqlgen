@@ -1,25 +1,25 @@
 schema:
-  - "*.graphql"
+    - "*.graphql"
 skip_validation: true
 exec:
-  filename: generated.go
-  package: singlefile
+    filename: generated.go
+    package: singlefile
 model:
-  filename: models-gen.go
-  package: singlefile
+    filename: models-gen.go
+    package: singlefile
 resolver:
-  filename: resolver.go
-  package: singlefile
-  type: Resolver
+    filename: resolver.go
+    package: singlefile
+    type: Resolver
 
 autobind:
-  - "github.com/99designs/gqlgen/codegen/testserver"
-  - "github.com/99designs/gqlgen/codegen/testserver/singlefile"
-  - "github.com/99designs/gqlgen/codegen/testserver/singlefile/introspection"
-  - "github.com/99designs/gqlgen/codegen/testserver/singlefile/invalid-packagename"
+    - "github.com/spiffdev/gqlgen/codegen/testserver"
+    - "github.com/spiffdev/gqlgen/codegen/testserver/singlefile"
+    - "github.com/spiffdev/gqlgen/codegen/testserver/singlefile/introspection"
+    - "github.com/spiffdev/gqlgen/codegen/testserver/singlefile/invalid-packagename"
 
 models:
-  Email:
-    model: "github.com/99designs/gqlgen/codegen/testserver/singlefile.Email"
-  StringFromContextFunction:
-    model: "github.com/99designs/gqlgen/codegen/testserver/singlefile.StringFromContextFunction"
+    Email:
+        model: "github.com/spiffdev/gqlgen/codegen/testserver/singlefile.Email"
+    StringFromContextFunction:
+        model: "github.com/spiffdev/gqlgen/codegen/testserver/singlefile.StringFromContextFunction"

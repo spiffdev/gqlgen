@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	unionextension "github.com/99designs/gqlgen/_examples/union-extension"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	unionextension "github.com/spiffdev/gqlgen/_examples/union-extension"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/graphql/playground"
 )
 
 func main() {

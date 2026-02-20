@@ -6,8 +6,8 @@ import (
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
 	"github.com/bytedance/sonic"
+	"github.com/spiffdev/gqlgen/graphql"
 )
 
 func writeJson(w io.Writer, response *graphql.Response) {

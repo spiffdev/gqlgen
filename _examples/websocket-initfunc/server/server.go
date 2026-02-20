@@ -13,10 +13,10 @@ import (
 	"github.com/gqlgen/_examples/websocket-initfunc/server/graph"
 	"github.com/rs/cors"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/extension"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/graphql/playground"
 )
 
 func webSocketInit(

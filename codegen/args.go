@@ -7,8 +7,8 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
+	"github.com/spiffdev/gqlgen/codegen/config"
+	"github.com/spiffdev/gqlgen/codegen/templates"
 )
 
 type ArgSet struct {

@@ -12,8 +12,8 @@ import (
 	"github.com/vektah/gqlparser/v2"
 	ast2 "github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/spiffdev/gqlgen/codegen/config"
+	"github.com/spiffdev/gqlgen/internal/code"
 )
 
 func TestFindField(t *testing.T) {
@@ -161,19 +161,19 @@ func TestField_BatchRootFieldUnsupported(t *testing.T) {
 				},
 			},
 			"Boolean": {
-				Model: config.StringList{"github.com/99designs/gqlgen/graphql.Boolean"},
+				Model: config.StringList{"github.com/spiffdev/gqlgen/graphql.Boolean"},
 			},
 			"Float": {
-				Model: config.StringList{"github.com/99designs/gqlgen/graphql.Float"},
+				Model: config.StringList{"github.com/spiffdev/gqlgen/graphql.Float"},
 			},
 			"ID": {
-				Model: config.StringList{"github.com/99designs/gqlgen/graphql.ID"},
+				Model: config.StringList{"github.com/spiffdev/gqlgen/graphql.ID"},
 			},
 			"Int": {
-				Model: config.StringList{"github.com/99designs/gqlgen/graphql.Int"},
+				Model: config.StringList{"github.com/spiffdev/gqlgen/graphql.Int"},
 			},
 			"String": {
-				Model: config.StringList{"github.com/99designs/gqlgen/graphql.String"},
+				Model: config.StringList{"github.com/spiffdev/gqlgen/graphql.String"},
 			},
 		},
 		Directives: map[string]config.DirectiveConfig{},

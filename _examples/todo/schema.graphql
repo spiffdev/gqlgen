@@ -38,7 +38,8 @@ input TodoInput {
     text: String!
     "Is it done already?"
     done: Boolean
-    number: Int! @goField(type:"github.com/99designs/gqlgen/_examples/todo.Number")
+    number: Int!
+        @goField(type: "github.com/spiffdev/gqlgen/_examples/todo.Number")
 }
 
 scalar Map
@@ -46,4 +47,3 @@ scalar Map
 "Prevents access to a field if the user doesnt have the matching role"
 directive @hasRole(role: Role!) on FIELD_DEFINITION
 directive @user(id: ID!) on MUTATION | QUERY | FIELD
-

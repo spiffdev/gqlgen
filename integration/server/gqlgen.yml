@@ -1,23 +1,23 @@
 schema:
-  - schema/**/*.graphql
+    - schema/**/*.graphql
 
 exec:
-  filename: generated.go
+    filename: generated.go
 model:
-  filename: models-go/generated.go
+    filename: models-go/generated.go
 
 struct_tag: json
 
 autobind:
-  - "github.com/99designs/gqlgen/integration/server/testomitempty"
+    - "github.com/spiffdev/gqlgen/integration/server/testomitempty"
 
 models:
-  Element:
-    model: github.com/99designs/gqlgen/integration/server/models-go.Element
-  Viewer:
-    model: github.com/99designs/gqlgen/integration/server/models-go.Viewer
-  User:
-    model: github.com/99designs/gqlgen/integration/server/remote_api.User
-    fields:
-      likes:
-        resolver: true
+    Element:
+        model: github.com/spiffdev/gqlgen/integration/server/models-go.Element
+    Viewer:
+        model: github.com/spiffdev/gqlgen/integration/server/models-go.Viewer
+    User:
+        model: github.com/spiffdev/gqlgen/integration/server/remote_api.User
+        fields:
+            likes:
+                resolver: true

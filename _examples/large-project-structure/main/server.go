@@ -7,14 +7,14 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/_examples/large-project-structure/integration"
-	"github.com/99designs/gqlgen/_examples/large-project-structure/main/graph"
-	_ "github.com/99designs/gqlgen/_examples/large-project-structure/shared"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/lru"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/spiffdev/gqlgen/_examples/large-project-structure/integration"
+	"github.com/spiffdev/gqlgen/_examples/large-project-structure/main/graph"
+	_ "github.com/spiffdev/gqlgen/_examples/large-project-structure/shared"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/extension"
+	"github.com/spiffdev/gqlgen/graphql/handler/lru"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/graphql/playground"
 )
 
 const defaultPort = "8080"

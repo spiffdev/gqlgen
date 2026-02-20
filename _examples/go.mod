@@ -1,11 +1,11 @@
-module github.com/99designs/gqlgen/_examples
+module github.com/spiffdev/gqlgen/_examples
 
 go 1.25
 
-replace github.com/99designs/gqlgen => ../
+replace github.com/spiffdev/gqlgen => ../
 
 require (
-	github.com/99designs/gqlgen v0.17.86
+	github.com/spiffdev/gqlgen v0.17.86
 	github.com/go-viper/mapstructure/v2 v2.5.0
 	github.com/goccy/go-yaml v1.19.2
 	github.com/google/uuid v1.6.0

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/spiffdev/gqlgen/codegen/config"
 )
 
 func cleanup(workDir string) {

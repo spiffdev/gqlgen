@@ -7,7 +7,7 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/spiffdev/gqlgen/codegen/config"
 )
 
 type Interface struct {

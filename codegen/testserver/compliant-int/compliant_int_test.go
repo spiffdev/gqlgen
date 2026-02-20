@@ -18,12 +18,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	gencompliant "github.com/99designs/gqlgen/codegen/testserver/compliant-int/generated-compliant-strict"
-	gendefault "github.com/99designs/gqlgen/codegen/testserver/compliant-int/generated-default"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/client"
+	gencompliant "github.com/spiffdev/gqlgen/codegen/testserver/compliant-int/generated-compliant-strict"
+	gendefault "github.com/spiffdev/gqlgen/codegen/testserver/compliant-int/generated-default"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
 )
 
 func TestCodegen(t *testing.T) {

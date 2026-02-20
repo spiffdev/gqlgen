@@ -7,13 +7,13 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/_examples/fileupload"
-	"github.com/99designs/gqlgen/_examples/fileupload/model"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/spiffdev/gqlgen/_examples/fileupload"
+	"github.com/spiffdev/gqlgen/_examples/fileupload/model"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql/handler"
+	"github.com/spiffdev/gqlgen/graphql/handler/extension"
+	"github.com/spiffdev/gqlgen/graphql/handler/transport"
+	"github.com/spiffdev/gqlgen/graphql/playground"
 )
 
 func main() {

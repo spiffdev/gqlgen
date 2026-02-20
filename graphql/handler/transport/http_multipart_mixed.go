@@ -12,8 +12,8 @@ import (
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
 	"github.com/bytedance/sonic"
+	"github.com/spiffdev/gqlgen/graphql"
 )
 
 // MultipartMixed is a transport that supports the multipart/mixed spec

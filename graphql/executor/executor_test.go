@@ -10,9 +10,9 @@ import (
 	"github.com/vektah/gqlparser/v2/gqlerror"
 	"github.com/vektah/gqlparser/v2/parser"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
-	"github.com/99designs/gqlgen/graphql/executor/testexecutor"
+	"github.com/spiffdev/gqlgen/graphql"
+	"github.com/spiffdev/gqlgen/graphql/errcode"
+	"github.com/spiffdev/gqlgen/graphql/executor/testexecutor"
 )
 
 func TestExecutor(t *testing.T) {

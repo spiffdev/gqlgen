@@ -1,17 +1,17 @@
-module github.com/99designs/gqlgen/_examples/large-project-structure/main
+module github.com/spiffdev/gqlgen/_examples/large-project-structure/main
 
 go 1.25.0
 
 require (
-	github.com/99designs/gqlgen v0.17.78
-	github.com/99designs/gqlgen/_examples/large-project-structure/integration v0.0.0-00010101000000-000000000000
-	github.com/99designs/gqlgen/_examples/large-project-structure/shared v0.0.0
+	github.com/spiffdev/gqlgen v0.17.78
+	github.com/spiffdev/gqlgen/_examples/large-project-structure/integration v0.0.0-00010101000000-000000000000
+	github.com/spiffdev/gqlgen/_examples/large-project-structure/shared v0.0.0
 	github.com/vektah/gqlparser/v2 v2.5.30
 )
 
-replace github.com/99designs/gqlgen/_examples/large-project-structure/shared => ../shared
+replace github.com/spiffdev/gqlgen/_examples/large-project-structure/shared => ../shared
 
-replace github.com/99designs/gqlgen/_examples/large-project-structure/integration => ../integration
+replace github.com/spiffdev/gqlgen/_examples/large-project-structure/integration => ../integration
 
 require (
 	github.com/agnivade/levenshtein v1.2.1 // indirect
